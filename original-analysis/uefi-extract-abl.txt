@@ -1,0 +1,2 @@
+FfsParser::parseVolumeBody: file header parsing failed with invalid size
+FfsParser::parse: not a single Volume Top File is found, the image may be corrupted

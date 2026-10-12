@@ -1,0 +1,120 @@
+encoding	term	file_offset	rva	va	section	text
+ASCII	fastboot	0xA44F5	0xA44F5	0xA44F5	.text	  (see more with fastboot oem ramdump)
+ASCII	fastboot	0xA4844	0xA4844	0xA4844	.text	Something is terribly wrong with %a mode, rebooting into fastboot mode as the last resort
+ASCII	fastboot	0xA48BC	0xA48BC	0xA48BC	.text	Reboot mode set to fastboot
+ASCII	fastboot	0xA48E1	0xA48E1	0xA48E1	.text	UTAG bootmode configured as fastboot
+ASCII	fastboot	0xA4924	0xA4924	0xA4924	.text	Fastboot after ramdump
+ASCII	fastboot	0xA4955	0xA4955	0xA4955	.text	Entering fastboot mode
+ASCII	fastboot	0xA4964	0xA4964	0xA4964	.text	Fastboot Reason: %a
+ASCII	fastboot	0xA498A	0xA498A	0xA498A	.text	Failed to Launch Fastboot: %d
+ASCII	fastboot	0xA4B8B	0xA4B8B	0xA4B8B	.text	Failed to boot Linux, falling back to fastboot
+ASCII	fastboot	0xA4B95	0xA4B95	0xA4B95	.text	Fastboot USB: Unable to free Tx Buffer
+ASCII	fastboot	0xA4BBD	0xA4BBD	0xA4BBD	.text	Fastboot USB: Unable to free Rx Buffer
+ASCII	fastboot	0xA4C59	0xA4C59	0xA4C59	.text	%a: Fastboot hang
+ASCII	fastboot	0xA4C78	0xA4C78	0xA4C78	.text	Fastboot Build Info: %a %a
+ASCII	fastboot	0xA4CD4	0xA4CD4	0xA4CD4	.text	couldnt Start fastboot usb device, exiting
+ASCII	fastboot	0xA4D11	0xA4D11	0xA4D11	.text	fastboot_screen
+ASCII	fastboot	0xA4D45	0xA4D45	0xA4D45	.text	fastboot exit code %d
+ASCII	fastboot	0xA4D6B	0xA4D6B	0xA4D6B	.text	couldnt uninit fastboot
+ASCII	fastboot	0xA4E42	0xA4E42	0xA4E42	.text	couldnt init fastboot , exiting
+ASCII	fastboot	0xA4E7E	0xA4E7E	0xA4E7E	.text	Error start the usb device, cannot enter fastboot mode
+ASCII	fastboot	0xA4EB4	0xA4EB4	0xA4EB4	.text	Error Allocate RX buffer, cannot enter fastboot mode
+ASCII	blankflash	0xA7265	0xA7265	0xA7265	.text	blankflash
+ASCII	unlock	0xA72D8	0xA72D8	0xA72D8	.text	unlock
+ASCII	unlock	0xA72E3	0xA72E3	0xA72E3	.text	get_unlock_data
+ASCII	unlock	0xA7DD9	0xA7DD9	0xA7DD9	.text	logo_unlocked
+ASCII	unlock	0xA85B4	0xA85B4	0xA85B4	.text	utags [%a] unlock is blocked for secure HW
+ASCII	unlock	0xA85DE	0xA85DE	0xA85DE	.text	failed to unlock [%a] utags
+ASCII	unlock	0xA85FB	0xA85FB	0xA85FB	.text	utags [%a] unlocked
+ASCII	unlock	0xA8A0A	0xA8A0A	0xA8A0A	.text	  unlock            unlock utags
+ASCII	unlock	0xA8A1C	0xA8A1C	0xA8A1C	.text	  unlock            unlock utags
+ASCII	unlock	0xADD09	0xADD09	0xADD09	.text	flashing_unlocked
+ASCII	unlock	0xADF40	0xADF40	0xADF40	.text	Failed to get unlock data.
+ASCII	unlock	0xADF4D	0xADF4D	0xADF4D	.text	Unlock data:
+ASCII	unlock	0xADF6E	0xADF6E	0xADF6E	.text	usage: fastboot oem unlock < unlock code >
+ASCII	unlock	0xADF77	0xADF77	0xADF77	.text	usage: fastboot oem unlock < unlock code >
+ASCII	unlock	0xADF85	0xADF85	0xADF85	.text	unlock_critical
+ASCII	unlock	0xADFAF	0xADFAF	0xADFAF	.text	get_unlock_ability
+ASCII	unlock	0xADFCB	0xADFCB	0xADFCB	.text	use "oem get_unlock_data" and web portal
+ASCII	unlock	0xADFFF	0xADFFF	0xADFFF	.text	    http://motorola.com/unlockbootloader
+ASCII	unlock	0xAE2E1	0xAE2E1	0xAE2E1	.text	Already unlocked
+ASCII	unlock	0xAE322	0xAE322	0xAE322	.text	invalid boot state for unlocking
+ASCII	unlock	0xAE337	0xAE337	0xAE337	.text	Check 'OEM unlocking' in Android Settings > Developer Options
+ASCII	get_unlock_data	0xA72DF	0xA72DF	0xA72DF	.text	get_unlock_data
+ASCII	get_unlock_data	0xADFC7	0xADFC7	0xADFC7	.text	use "oem get_unlock_data" and web portal
+ASCII	get_unlock_data	0xB06A0	0xB06A0	0xB06A0	.text	get_unlock_data: Version 2 datablock
+ASCII	get_unlock_data	0xB06C6	0xB06C6	0xB06C6	.text	get_unlock_data: Version 1 datablock
+ASCII	get_unlock_data	0xB06EC	0xB06EC	0xB06EC	.text	get_unlock_data: Unsupported datablock
+ASCII	get_unlock_data	0xB0714	0xB0714	0xB0714	.text	get_unlock_data: default password hash present
+ASCII	cid_prov_req	0xA72EF	0xA72EF	0xA72EF	.text	cid_prov_req
+ASCII	read_sv	0xA7321	0xA7321	0xA7321	.text	read_sv
+ASCII	securestate	0xA6E29	0xA6E29	0xA6E29	.text	securestate
+ASCII	oem_locked	0xADCE5	0xADCE5	0xADCE5	.text	oem_locked
+ASCII	oem unlock	0xADF6A	0xADF6A	0xADF6A	.text	usage: fastboot oem unlock < unlock code >
+ASCII	oem unlock	0xAE333	0xAE333	0xAE333	.text	Check 'OEM unlocking' in Android Settings > Developer Options
+ASCII	channelid	0xA6E1B	0xA6E1B	0xA6E1B	.text	channelid
+ASCII	carrier	0xA6E81	0xA6E81	0xA6E81	.text	carrier_sku
+ASCII	carrier	0xA6ECD	0xA6ECD	0xA6ECD	.text	ro.carrier
+ASCII	carrier	0xBFCD3	0xBFCD3	0xBFCD3	.text	 androidboot.carrier=
+ASCII	devinfo	0xBBE06	0xBBE06	0xBBE06	.text	devinfo
+ASCII	devinfo	0xCD404	0xCD404	0xCD404	.data	devinfo
+ASCII	devinfo	0xCE20E	0xCE20E	0xCE20E	.data	devinfo
+ASCII	devinfo	0xCF054	0xCF054	0xCF054	.data	devinfo
+ASCII	devinfo	0xCFF5C	0xCFF5C	0xCFF5C	.data	devinfo
+ASCII	flashing	0xA5C86	0xA5C86	0xA5C86	.text	flashing avb_custom_key
+ASCII	flashing	0xA5C9F	0xA5C9F	0xA5C9F	.text	Flashing avb_custom_key failed
+ASCII	flashing	0xA5D0F	0xA5D0F	0xA5D0F	.text	DAP flashing is not supported!
+ASCII	flashing	0xA5DF4	0xA5DF4	0xA5DF4	.text	Error flashing partition
+ASCII	flashing	0xA66E1	0xA66E1	0xA66E1	.text	dap_flashing
+ASCII	flashing	0xA66F3	0xA66F3	0xA66F3	.text	CAUTION: Flashing dynamic partition in bootloader is a lab function! Please use at your own risk!
+ASCII	flashing	0xA678A	0xA678A	0xA678A	.text	  Bootloader MUST NOT allow the flashing of dynamic partitions.
+ASCII	flashing	0xAA70A	0xAA70A	0xAA70A	.text	- flashing '%a' to '%a'
+ASCII	flashing	0xADCF0	0xADCF0	0xADCF0	.text	flashing_locked
+ASCII	flashing	0xADD00	0xADD00	0xADD00	.text	flashing_unlocked
+ASCII	flashing	0xAEA31	0xAEA31	0xAEA31	.text	  Flashing images can result in a non-boot condition.
+ASCII	flashing	0xAF39D	0xAF39D	0xAF39D	.text	WARNING: Flashing vbmeta image is required prior to
+ASCII	flashing	0xAF3CA	0xAF3CA	0xAF3CA	.text	  flashing super image.
+ASCII	signature	0xA72BA	0xA72BA	0xA72BA	.text	build-signature
+ASCII	signature	0xB24D3	0xB24D3	0xB24D3	.text	dbval_validate_datablock - Check DB Signature
+ASCII	signature	0xB2642	0xB2642	0xB2642	.text	dbval_db_gen_hdr_signature_alg - Signature alg is DBVAL_SIG_ALG_PKCS1_15_SHA1
+ASCII	signature	0xB2652	0xB2652	0xB2652	.text	dbval_db_gen_hdr_signature_alg - Signature alg is DBVAL_SIG_ALG_PKCS1_15_SHA1
+ASCII	signature	0xB2690	0xB2690	0xB2690	.text	dbval_db_gen_hdr_signature_alg - Signature alg is DBVAL_SIG_ALG_PKCS1_15_SHA256
+ASCII	signature	0xB26A0	0xB26A0	0xB26A0	.text	dbval_db_gen_hdr_signature_alg - Signature alg is DBVAL_SIG_ALG_PKCS1_15_SHA256
+ASCII	signature	0xB2DC1	0xB2DC1	0xB2DC1	.text	dbval_db_validate_gen_hdr - validate signature algorithm
+ASCII	signature	0xB2EFD	0xB2EFD	0xB2EFD	.text	dbval_validate_generic_datablock - Check DB Signature
+ASCII	signature	0xB4AF4	0xB4AF4	0xB4AF4	.text	qti signature size: 0x%x
+ASCII	signature	0xB531A	0xB531A	0xB531A	.text	signature: 0x%x
+ASCII	signature	0xB6ADE	0xB6ADE	0xB6ADE	.text	Signature length does not match key length.
+ASCII	signature	0xB6B36	0xB6B36	0xB6B36	.text	Padding length does not match hash and signature lengths.
+ASCII	signature	0xB86F0	0xB86F0	0xB86F0	.text	Signature is not entirely in its block.
+ASCII	signature	0xB8809	0xB8809	0xB8809	.text	SIGNATURE_MISMATCH
+ASCII	signature	0xC4834	0xC4834	0xC4834	.text	Build signature offset out of partition boundary
+ASCII	signature	0xC4875	0xC4875	0xC4875	.text	Failed to read build signature sector
+ASCII	signature	0xC4893	0xC4893	0xC4893	.text	BEGIN BUILD SIGNATURE
+ASCII	signature	0xC48A3	0xC48A3	0xC48A3	.text	Build signature not found at offset [0x%llx]
+ASCII	signature	0xC48D1	0xC48D1	0xC48D1	.text	Build signature line too long
+ASCII	signature	0xC48F0	0xC48F0	0xC48F0	.text	Build signature out of range
+ASCII	token	0xA69A6	0xA69A6	0xA69A6	.text	debug_token
+ASCII	token	0xADD25	0xADD25	0xADD25	.text	:DEBUG TOKEN
+ASCII	token	0xADEF8	0xADEF8	0xADEF8	.text	Clear debug token first.
+ASCII	token	0xB043E	0xB043E	0xB043E	.text	Token too big for partition
+ASCII	motorola	0xA75A4	0xA75A4	0xA75A4	.text	Latest Motorola fastboot required, download from: http://goo.gl/Qyzg2L
+ASCII	motorola	0xAA3A9	0xAA3A9	0xAA3A9	.text	Motorola fastboot required.
+ASCII	motorola	0xACC81	0xACC81	0xACC81	.text	Failed to locate Motorola hwid protocol!
+ASCII	motorola	0xADFF2	0xADFF2	0xADFF2	.text	    http://motorola.com/unlockbootloader
+ASCII	motorola	0xAE9D6	0xAE9D6	0xAE9D6	.text	 Motorola:#MAP4#OTA#466-6-133:#1913
+ASCII	motorola	0xB1BDA	0xB1BDA	0xB1BDA	.text	Motorola, Inc.1907
+ASCII	motorola	0xB1C2E	0xB1C2E	0xB1C2E	.text	%Motorola Security Engineering Root CA0
+ASCII	motorola	0xB1C8E	0xB1C8E	0xB1C8E	.text	Motorola, Inc.1907
+ASCII	motorola	0xB1CE2	0xB1CE2	0xB1CE2	.text	%Motorola Security Engineering Root CA0
+ASCII	motorola	0xB5392	0xB5392	0xB5392	.text	Motorola Attestation
+ASCII	motorola	0xBB8C0	0xBB8C0	0xBB8C0	.text	Not able to locate Motorola AB protocol!
+ASCII	motorola	0xC4CB7	0xC4CB7	0xC4CB7	.text	For more information, visit our support forums: support.motorola.com
+ASCII	motorola	0xC4D6D	0xC4D6D	0xC4D6D	.text	For more information, visit our support forums: support.motorola.com
+ASCII	motorola	0xC4DF7	0xC4DF7	0xC4DF7	.text	For more information, visit our support forums: support.motorola.com
+ASCII	motorola	0xC4EA4	0xC4EA4	0xC4EA4	.text	For more information, visit our support forums: support.motorola.com
+ASCII	motorola	0xC638C	0xC638C	0xC638C	.text	Failed to locate Motorola WriteProtect protocol!
+ASCII	motorola	0xC84A0	0xC84A0	0xC84A0	.text	Failed to locate Motorola Prov protocol!
+ASCII	motorola	0xCCDD0	0xCCDD0	0xCCDD0	.data	Motorola Attestation 719-1
+ASCII	motorola	0xCCE3C	0xCCE3C	0xCCE3C	.data	Motorola Attestation 719-1
+ASCII	motorola	0xCCEA0	0xCCEA0	0xCCEA0	.data	Motorola Attestation 719-1

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+python-deps/
+.env
+adbkey*
+PRIVATE/
+*-private.log
+private-transcript.json
+firmware-downloads/

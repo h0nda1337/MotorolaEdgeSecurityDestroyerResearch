@@ -1,0 +1,88 @@
+﻿
+> Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:642:## `0x22D08`
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:643:
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:644:- Función contenedora: 
+`FUN_00022d08`
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:645:- Entrada: `00022d08`
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:646:
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:647:```asm
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:648:   00022cd4  add x0,x0,#0xf32
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:649:   00022cd8  bl 0x000043c8
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:650:   00022cdc  adrp x9,0xd0000
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:651:   00022ce0  ldr x8,[sp, #0x48]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:652:   00022ce4  ldr x9,[x9, #0x8a0]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:653:   00022ce8  cmp x9,x8
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:654:   00022cec  b.ne 0x00022d00
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:655:   00022cf0  ldp x20,x19,[sp, 
+#0x60]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:656:   00022cf4  ldr x30,[sp, #0x50]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:657:   00022cf8  add sp,sp,#0x70
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:658:   00022cfc  ret
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:659:   00022d00  bl 0x00053a68
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:660:>> 00022d08  sub sp,sp,#0x60
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:661:   00022d0c  str x30,[sp, #0x40]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:662:   00022d10  stp x20,x19,[sp, 
+#0x50]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:663:   00022d14  adrp x8,0xd0000
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:664:   00022d18  mov x19,x1
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:665:   00022d1c  mov w20,w0
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:666:   00022d20  adrp x0,0xa7000
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:667:   00022d24  add x0,x0,#0x2d8
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:668:   00022d28  ldr x8,[x8, #0x8a0]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:669:   00022d2c  str x8,[sp, #0x38]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:670:   00022d30  ldr x1,[x1]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:671:   00022d34  bl 0x0001be9c
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:672:   00022d38  cbz w0,0x00022d98
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:673:   00022d3c  ldr x1,[x19]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:674:   00022d40  adrp x0,0xb1000
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:675:   00022d44  add x0,x0,#0x271
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:676:   00022d48  bl 0x0001be9c
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:677:   00022d4c  cbz w0,0x00022de8
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:678:   00022d50  ldr x1,[x19]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:679:```
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:680:
+> Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:681:## `0x2B978`
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:682:
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:683:- Función contenedora: 
+`FUN_0002b978`
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:684:- Entrada: `0002b978`
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:685:
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:686:```asm
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:687:   0002b948  ldur w8,[x29, #-0x3c]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:688:   0002b94c  str w8,[sp, #0x10]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:689:   0002b950  ldur w8,[x29, #-0x38]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:690:   0002b954  str w8,[sp, #0x8]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:691:   0002b958  ldur w8,[x29, #-0x34]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:692:   0002b95c  str w8,[sp]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:693:   0002b960  bl 0x0001a704
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:694:   0002b964  ldur x0,[x29, #-0x18]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:695:   0002b968  cbz x0,0x0002b464
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:696:   0002b96c  bl 0x00015910
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:697:   0002b970  b 0x0002b0bc
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:698:   0002b974  bl 0x00053a68
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:699:>> 0002b978  sub sp,sp,#0xa0
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:700:   0002b97c  stp x30,x23,[sp, 
+#0x70]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:701:   0002b980  stp x22,x21,[sp, 
+#0x80]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:702:   0002b984  stp x20,x19,[sp, 
+#0x90]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:703:   0002b988  adrp x8,0xd0000
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:704:   0002b98c  mov w9,#0x20
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:705:   0002b990  mov x19,x0
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:706:   0002b994  ldr x8,[x8, #0x8a0]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:707:   0002b998  str x8,[sp, #0x68]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:708:   0002b99c  str xzr,[sp, #0x10]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:709:   0002b9a0  str w9,[sp, #0x8]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:710:   0002b9a4  bl 0x0002ae90
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:711:   0002b9a8  tst w0,#0xff
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:712:   0002b9ac  b.eq 0x0002ba14
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:713:   0002b9b0  add x0,sp,#0x10
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:714:   0002b9b4  add x1,sp,#0xc
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:715:   0002b9b8  bl 0x0002d7f8
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:716:   0002b9bc  mov w8,w0
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:717:   0002b9c0  ldr x0,[sp, #0x10]
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:718:```
+  Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\ghidra-xrefs.md:719:
+
+

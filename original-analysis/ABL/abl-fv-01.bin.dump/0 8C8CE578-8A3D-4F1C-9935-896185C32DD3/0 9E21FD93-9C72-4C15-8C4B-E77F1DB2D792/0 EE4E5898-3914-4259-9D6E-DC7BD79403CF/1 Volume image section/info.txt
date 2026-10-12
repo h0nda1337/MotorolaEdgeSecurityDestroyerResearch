@@ -1,0 +1,7 @@
+Type: Section
+Subtype: Volume image
+Offset: 1Ch
+Full size: D60C4h (876740)
+Header size: 4h (4)
+Body size: D60C0h (876736)
+Type: 17h

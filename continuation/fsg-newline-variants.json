@@ -1,0 +1,26 @@
+[
+  {
+    "value": "a\nb",
+    "returncode": 1,
+    "output": "FAILED (remote: '')\nfastboot: error: Command failed\n"
+  },
+  {
+    "read_after": "(bootloader) <UTAG name=\"fsg-id\" protected=\"FALSE\">\n(bootloader)   <value>\n(bootloader)   </value>\n(bootloader)   <description>\n(bootloader)     FSG IDs, see http://goo.gl/gPmhU\n(bootloader)   </description>\n(bootloader) </UTAG>\n\nOKAY [  0.001s]\nFinished. Total time: 0.001s\n"
+  },
+  {
+    "value": "a\nb c",
+    "returncode": 1,
+    "output": "FAILED (remote: '')\nfastboot: error: Command failed\n"
+  },
+  {
+    "read_after": "(bootloader) <UTAG name=\"fsg-id\" protected=\"FALSE\">\n(bootloader)   <value>\n(bootloader)   </value>\n(bootloader)   <description>\n(bootloader)     FSG IDs, see http://goo.gl/gPmhU\n(bootloader)   </description>\n(bootloader) </UTAG>\n\nOKAY [  0.001s]\nFinished. Total time: 0.001s\n"
+  },
+  {
+    "value": "\"a\nb\"",
+    "returncode": 1,
+    "output": "FAILED (remote: '')\nfastboot: error: Command failed\n"
+  },
+  {
+    "read_after": "(bootloader) <UTAG name=\"fsg-id\" protected=\"FALSE\">\n(bootloader)   <value>\n(bootloader)   </value>\n(bootloader)   <description>\n(bootloader)     FSG IDs, see http://goo.gl/gPmhU\n(bootloader)   </description>\n(bootloader) </UTAG>\n\nOKAY [  0.001s]\nFinished. Total time: 0.001s\n"
+  }
+]

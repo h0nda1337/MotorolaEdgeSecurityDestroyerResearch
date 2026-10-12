@@ -1,0 +1,97 @@
+
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:2:<flashing>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:15:    <step operation="oem" var="fb_mode_set"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:16:    <step MD5="f91718b04454b2ea138451d219366444" 
+filename="gpt.bin" operation="flash" partition="partition"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:17:    <step MD5="527c3f97095d07277a5b0d254ddc5195" 
+filename="bootloader.img" operation="flash" partition="bootloader"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:18:    <step MD5="a172354f54ce0866274fcf5f7da1ae32" 
+filename="vbmeta.img" operation="flash" partition="vbmeta"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:19:    <step MD5="b1ac1d487b35b1df0f96ef6e123fdeed" 
+filename="radio.img" operation="flash" partition="radio"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:20:    <step MD5="5f1fec66d86c1d24e345b5ab49fa75e3" 
+filename="BTFM.bin" operation="flash" partition="bluetooth"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:21:    <step MD5="f4fa86b1e78f898be631e1885e35a5cf" 
+filename="dspso.bin" operation="flash" partition="dsp"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:22:    <step MD5="f98350d2dd32c05552acd3355366bf9e" 
+filename="logo.bin" operation="flash" partition="logo"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:23:    <step MD5="6af65fd7b550e5c8da1a4cd597e38c99" 
+filename="boot.img" operation="flash" partition="boot"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:24:    <step MD5="9a35328f8b70e0f810603bfa5696d4c8" 
+filename="dtbo.img" operation="flash" partition="dtbo"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:25:    <step MD5="7f6602073997736f8018fb31ff9ac18f" 
+filename="recovery.img" operation="flash" partition="recovery"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:26:    <step MD5="9126dfa1f2c206ed0561458f9f691fa0" 
+filename="super.img_sparsechunk.0" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:27:    <step MD5="7cc9a6d1bd6c71671f3ab58674418897" 
+filename="super.img_sparsechunk.1" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:28:    <step MD5="871537317eaee192fd5410c4d3648829" 
+filename="super.img_sparsechunk.2" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:29:    <step MD5="1b1b13341ef38f24af52691f7a30da97" 
+filename="super.img_sparsechunk.3" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:30:    <step MD5="033c17c481453f1df36313d1fd94d6bc" 
+filename="super.img_sparsechunk.4" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:31:    <step MD5="ed3d67b05e2104f5b168e32636257c45" 
+filename="super.img_sparsechunk.5" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:32:    <step MD5="3398406f733aea6d90cfbf80d91d2c89" 
+filename="super.img_sparsechunk.6" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:33:    <step MD5="441b4cac883fdfe68ba05515daaf0f73" 
+filename="super.img_sparsechunk.7" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:34:    <step MD5="088207c935b43c81bc0f536c9fd5e73c" 
+filename="super.img_sparsechunk.8" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:35:    <step MD5="247b807b72dfc72a2e5f535ac94385fb" 
+filename="super.img_sparsechunk.9" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:36:    <step operation="erase" partition="carrier"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:37:    <step operation="erase" partition="userdata"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:38:    <step operation="erase" partition="metadata"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:39:    <step operation="erase" partition="ddr"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:40:    <step operation="oem" var="fb_mode_clear"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\flashfile.xml:42:</flashing>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:2:<flashing>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:13:    <step operation="oem" var="fb_mode_set"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:14:    <step MD5="f91718b04454b2ea138451d219366444" 
+filename="gpt.bin" operation="flash" partition="partition"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:15:    <step MD5="527c3f97095d07277a5b0d254ddc5195" 
+filename="bootloader.img" operation="flash" partition="bootloader"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:16:    <step MD5="a172354f54ce0866274fcf5f7da1ae32" 
+filename="vbmeta.img" operation="flash" partition="vbmeta"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:17:    <step MD5="b1ac1d487b35b1df0f96ef6e123fdeed" 
+filename="radio.img" operation="flash" partition="radio"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:18:    <step MD5="5f1fec66d86c1d24e345b5ab49fa75e3" 
+filename="BTFM.bin" operation="flash" partition="bluetooth"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:19:    <step MD5="f4fa86b1e78f898be631e1885e35a5cf" 
+filename="dspso.bin" operation="flash" partition="dsp"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:20:    <step MD5="f98350d2dd32c05552acd3355366bf9e" 
+filename="logo.bin" operation="flash" partition="logo"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:21:    <step MD5="6af65fd7b550e5c8da1a4cd597e38c99" 
+filename="boot.img" operation="flash" partition="boot"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:22:    <step MD5="9a35328f8b70e0f810603bfa5696d4c8" 
+filename="dtbo.img" operation="flash" partition="dtbo"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:23:    <step MD5="7f6602073997736f8018fb31ff9ac18f" 
+filename="recovery.img" operation="flash" partition="recovery"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:24:    <step MD5="9126dfa1f2c206ed0561458f9f691fa0" 
+filename="super.img_sparsechunk.0" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:25:    <step MD5="7cc9a6d1bd6c71671f3ab58674418897" 
+filename="super.img_sparsechunk.1" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:26:    <step MD5="871537317eaee192fd5410c4d3648829" 
+filename="super.img_sparsechunk.2" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:27:    <step MD5="1b1b13341ef38f24af52691f7a30da97" 
+filename="super.img_sparsechunk.3" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:28:    <step MD5="033c17c481453f1df36313d1fd94d6bc" 
+filename="super.img_sparsechunk.4" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:29:    <step MD5="ed3d67b05e2104f5b168e32636257c45" 
+filename="super.img_sparsechunk.5" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:30:    <step MD5="3398406f733aea6d90cfbf80d91d2c89" 
+filename="super.img_sparsechunk.6" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:31:    <step MD5="441b4cac883fdfe68ba05515daaf0f73" 
+filename="super.img_sparsechunk.7" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:32:    <step MD5="088207c935b43c81bc0f536c9fd5e73c" 
+filename="super.img_sparsechunk.8" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:33:    <step MD5="247b807b72dfc72a2e5f535ac94385fb" 
+filename="super.img_sparsechunk.9" operation="flash" partition="super"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:34:    <step operation="erase" partition="carrier"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:35:    <step operation="erase" partition="ddr"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:36:    <step operation="oem" var="fb_mode_clear"/>
+Desktop\Motorola-Edge-Racer\Firmware-Exacto\servicefile.xml:38:</flashing>
+
+

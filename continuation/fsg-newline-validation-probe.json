@@ -1,0 +1,48 @@
+[
+  {
+    "argv": [
+      "getvar",
+      "product"
+    ],
+    "returncode": 0,
+    "output": "product: racer\nFinished. Total time: 0.000s\n"
+  },
+  {
+    "argv": [
+      "oem",
+      "config",
+      "fsg-id",
+      "codexprobe\ncodex_probe=1"
+    ],
+    "returncode": 1,
+    "output": "FAILED (remote: '')\nfastboot: error: Command failed\n"
+  },
+  {
+    "argv": [
+      "oem",
+      "config",
+      "fsg-id"
+    ],
+    "returncode": 0,
+    "output": "(bootloader) <UTAG name=\"fsg-id\" protected=\"FALSE\">\n(bootloader)   <value>\n(bootloader)   </value>\n(bootloader)   <description>\n(bootloader)     FSG IDs, see http://goo.gl/gPmhU\n(bootloader)   </description>\n(bootloader) </UTAG>\n\nOKAY [  0.001s]\nFinished. Total time: 0.001s\n"
+  },
+  {
+    "argv": [
+      "oem",
+      "config",
+      "fsg-id",
+      ""
+    ],
+    "returncode": 0,
+    "output": "OKAY [  0.000s]\nFinished. Total time: 0.000s\n"
+  },
+  {
+    "argv": [
+      "oem",
+      "config",
+      "fsg-id"
+    ],
+    "returncode": 0,
+    "output": "(bootloader) <UTAG name=\"fsg-id\" protected=\"FALSE\">\n(bootloader)   <value>\n(bootloader)   </value>\n(bootloader)   <description>\n(bootloader)     FSG IDs, see http://goo.gl/gPmhU\n(bootloader)   </description>\n(bootloader) </UTAG>\n\nOKAY [  0.001s]\nFinished. Total time: 0.001s\n"
+  }
+]

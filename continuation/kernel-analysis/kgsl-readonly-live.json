@@ -1,0 +1,67 @@
+[
+  {
+    "argv": [
+      "shell",
+      "getprop",
+      "ro.product.device"
+    ],
+    "returncode": 0,
+    "output": "racer\n"
+  },
+  {
+    "argv": [
+      "shell",
+      "mkdir",
+      "-p",
+      "/data/local/tmp/codex-racer"
+    ],
+    "returncode": 0,
+    "output": ""
+  },
+  {
+    "argv": [
+      "push",
+      "G:\\Motorola-Racer-Codex\\work\\kernel-analysis\\kgsl_readonly_probe",
+      "/data/local/tmp/codex-racer/kgsl_readonly_probe"
+    ],
+    "returncode": 0,
+    "output": "G:\\Motorola-Racer-Codex\\work\\kernel-analysis\\kgsl_readonly_probe: 1 file pushed, 0 skipped. 16.2 MB/s (2944 bytes in 0.000s)\n"
+  },
+  {
+    "argv": [
+      "shell",
+      "chmod",
+      "700",
+      "/data/local/tmp/codex-racer/kgsl_readonly_probe"
+    ],
+    "returncode": 0,
+    "output": ""
+  },
+  {
+    "argv": [
+      "shell",
+      "/data/local/tmp/codex-racer/kgsl_readonly_probe"
+    ],
+    "returncode": 0,
+    "output": "{\"uid\":2000,\"euid\":2000,\"open_result\":3,\"getproperty_result\":0,\"gpu_id\":0,\"chip_id\":100794368,\"mmu_enabled\":256,\"gmem_bytes\":524288,\"query_only\":true}\n"
+  },
+  {
+    "argv": [
+      "shell",
+      "ls",
+      "-lZ",
+      "/dev/kgsl-3d0"
+    ],
+    "returncode": 0,
+    "output": "crw-rw-rw- 1 system system u:object_r:gpu_device:s0  511,   0 2026-10-11 20:28 /dev/kgsl-3d0\n"
+  },
+  {
+    "argv": [
+      "shell",
+      "uname",
+      "-r"
+    ],
+    "returncode": 0,
+    "output": "4.19.125-perf+\n"
+  }
+]

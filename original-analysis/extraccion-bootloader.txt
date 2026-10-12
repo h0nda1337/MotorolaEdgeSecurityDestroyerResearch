@@ -1,0 +1,21 @@
+Contenedor: C:\Users\USER\Desktop\Motorola-Edge-Racer\Firmware-Exacto\bootloader.img
+Tama±o: 13,107,456 bytes
+
+[01] index.xml                offset=0x00000200 size=      134 tipo=BIN
+[02] pkg.xml                  offset=0x00001300 size=       80 tipo=BIN
+[03] default.xml              offset=0x00002400 size=      708 tipo=BIN
+[04] xbl.elf                  offset=0x00003500 size=4,189,312 tipo=ELF
+[05] xbl_config.elf           offset=0x00402600 size=  126,080 tipo=ELF
+[06] qupfw.elf                offset=0x00421700 size=   76,928 tipo=ELF
+[07] aop.mbn                  offset=0x00434800 size=  519,296 tipo=ELF
+[08] tz.mbn                   offset=0x004B3900 size=4,189,312 tipo=ELF
+[09] hyp.mbn                  offset=0x008B2A00 size=  519,296 tipo=ELF
+[10] devcfg.mbn               offset=0x00931B00 size=  126,080 tipo=ELF
+[11] prov64.mbn               offset=0x00950C00 size=  257,152 tipo=ELF
+[12] keymaster.mbn            offset=0x0098FD00 size=  519,296 tipo=ELF
+[13] storsec.mbn              offset=0x00A0EE00 size=  126,080 tipo=ELF
+[14] uefi_sec.mbn             offset=0x00A2DF00 size=2,092,160 tipo=ELF
+[15] abl.elf                  offset=0x00C2D000 size=  339,968 tipo=ELF
+Terminador encontrado en 0xC80000
+
+Manifiesto: C:\Users\USER\Desktop\Motorola-Edge-Racer\Analisis-Bootloader\Bootloader-Extraido\manifest.tsv

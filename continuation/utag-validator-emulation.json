@@ -1,0 +1,105 @@
+{
+  "module_sha256": "2f3a836279d61c53c67f322153251832bb80aa3008e8c6efbe22893d9d707018",
+  "entry_rva": "0x1C30",
+  "pattern_rva": "0xEEE4",
+  "pattern": "^[_[:alnum:]]{1,31}$",
+  "mocked_services": [
+    "UEFI AllocatePool",
+    "UEFI FreePool",
+    "diagnostic logging"
+  ],
+  "cases": [
+    {
+      "value_hex": "636f64657870726f6265",
+      "input_size": 11,
+      "completed": true,
+      "result": 1,
+      "allocations": 39
+    },
+    {
+      "value_hex": "6e6f6e65",
+      "input_size": 5,
+      "completed": true,
+      "result": 1,
+      "allocations": 39
+    },
+    {
+      "value_hex": "30",
+      "input_size": 2,
+      "completed": true,
+      "result": 1,
+      "allocations": 39
+    },
+    {
+      "value_hex": "5f",
+      "input_size": 2,
+      "completed": true,
+      "result": 1,
+      "allocations": 39
+    },
+    {
+      "value_hex": "",
+      "input_size": 1,
+      "completed": true,
+      "result": 0,
+      "allocations": 39
+    },
+    {
+      "value_hex": "612062",
+      "input_size": 4,
+      "completed": true,
+      "result": 0,
+      "allocations": 39
+    },
+    {
+      "value_hex": "612d62",
+      "input_size": 4,
+      "completed": true,
+      "result": 0,
+      "allocations": 39
+    },
+    {
+      "value_hex": "2222",
+      "input_size": 3,
+      "completed": true,
+      "result": 0,
+      "allocations": 39
+    },
+    {
+      "value_hex": "613d62",
+      "input_size": 4,
+      "completed": true,
+      "result": 0,
+      "allocations": 39
+    },
+    {
+      "value_hex": "41414141414141414141414141414141414141414141414141414141414141",
+      "input_size": 32,
+      "completed": true,
+      "result": 1,
+      "allocations": 39
+    },
+    {
+      "value_hex": "4141414141414141414141414141414141414141414141414141414141414141",
+      "input_size": 33,
+      "completed": true,
+      "result": 0,
+      "allocations": 39
+    },
+    {
+      "value_hex": "610a62",
+      "input_size": 4,
+      "completed": true,
+      "result": 1,
+      "allocations": 39
+    },
+    {
+      "value_hex": "61002062",
+      "input_size": 5,
+      "completed": true,
+      "result": 1,
+      "allocations": 39
+    }
+  ],
+  "phone_io": false
+}

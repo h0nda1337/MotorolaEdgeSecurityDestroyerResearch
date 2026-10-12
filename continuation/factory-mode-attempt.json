@@ -1,0 +1,29 @@
+[
+  {
+    "argv": [
+      "oem",
+      "config",
+      "bootmode",
+      "factory"
+    ],
+    "returncode": 1,
+    "output": "(bootloader) Not allowed command\nFAILED (remote: '')\nfastboot: error: Command failed\n"
+  },
+  {
+    "argv": [
+      "oem",
+      "config",
+      "bootmode"
+    ],
+    "returncode": 0,
+    "output": "(bootloader) <UTAG name=\"bootmode\" type=\"str\" protected=\"FALSE\">\n(bootloader)   <value>\n(bootloader)     \n(bootloader)   </value>\n(bootloader)   <description>\n(bootloader)     To force certain bootmode\n(bootloader)     (valid values are \"fastboot\", \"factory\",\n(bootloader)     \"bp-tools\", \"qcom\", and \"normal\")\n(bootloader)   </description>\n(bootloader) </UTAG>\n\nOKAY [  0.001s]\nFinished. Total time: 0.001s\n"
+  },
+  {
+    "argv": [
+      "getvar",
+      "securestate"
+    ],
+    "returncode": 0,
+    "output": "securestate: oem_locked\nFinished. Total time: 0.000s\n"
+  }
+]

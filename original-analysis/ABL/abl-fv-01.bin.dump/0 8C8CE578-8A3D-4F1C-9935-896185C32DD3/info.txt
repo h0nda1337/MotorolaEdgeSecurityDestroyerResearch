@@ -1,0 +1,17 @@
+Type: Volume
+Subtype: FFSv2
+Base: 0h
+Offset: 0h
+Full size: 50000h (327680)
+Header size: 48h (72)
+Body size: 4FFB8h (327608)
+ZeroVector:
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+FileSystem GUID: 8C8CE578-8A3D-4F1C-9935-896185C32DD3
+Revision: 2
+Attributes: 0003FEFFh
+Erase polarity: 1
+Checksum: F24Bh, valid
+NumBlocks: 280h (640), valid
+Length: 200h (512), valid

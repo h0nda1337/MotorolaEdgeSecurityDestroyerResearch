@@ -1,0 +1,147 @@
+Fuente: C:\Users\USER\Desktop\Motorola-Edge-Racer\Analisis-Bootloader\ABL\abl-fv-01.bin.dump\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\1 Volume image section\0 046FAE99-CF2E-49ED-A6A8-A1488B7E80D3\0 MotoBootModule\1 PE32 image section\body.bin
+Archivo canónico: C:\Users\USER\Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\MotoBootModule.efi
+Tamaño: 876,544 bytes / 0xD6000
+SHA-256: 26ABC200A3333F06BCEAA1E5CD89C3ACE8BEA187A2E16A492A5499B13D9B5B97
+Puntuación de términos: 16
+
+=== PE ===
+Tipo: PE32+
+Máquina: 0xAA64 (ARM64)
+Secciones: 3
+ImageBase: 0x0
+Entry RVA: 0x1000
+Entry VA: 0x1000
+SizeOfImage: 0xD6000
+SizeOfHeaders: 0x1000
+SectionAlignment: 0x1000
+FileAlignment: 0x1000
+Subsystem: 10 (EFI application)
+
+=== SECCIONES ===
+.text    RVA=0x00001000 VSZ=0xCB000 RAW=0x00001000+0xCB000 R-X
+.data    RVA=0x000CC000 VSZ=0x9000 RAW=0x000CC000+0x9000 RW-
+.reloc   RVA=0x000D5000 VSZ=0x1000 RAW=0x000D5000+0x1000 R--
+
+=== TÉRMINOS ===
+fastboot           file=0xA44F5 RVA=0xA44F5 VA=0xA44F5 section=.text text='  (see more with fastboot oem ramdump)'
+fastboot           file=0xA4844 RVA=0xA4844 VA=0xA4844 section=.text text='Something is terribly wrong with %a mode, rebooting into fastboot mode as the last resort'
+fastboot           file=0xA48BC RVA=0xA48BC VA=0xA48BC section=.text text='Reboot mode set to fastboot'
+fastboot           file=0xA48E1 RVA=0xA48E1 VA=0xA48E1 section=.text text='UTAG bootmode configured as fastboot'
+fastboot           file=0xA4924 RVA=0xA4924 VA=0xA4924 section=.text text='Fastboot after ramdump'
+fastboot           file=0xA4955 RVA=0xA4955 VA=0xA4955 section=.text text='Entering fastboot mode'
+fastboot           file=0xA4964 RVA=0xA4964 VA=0xA4964 section=.text text='Fastboot Reason: %a'
+fastboot           file=0xA498A RVA=0xA498A VA=0xA498A section=.text text='Failed to Launch Fastboot: %d'
+fastboot           file=0xA4B8B RVA=0xA4B8B VA=0xA4B8B section=.text text='Failed to boot Linux, falling back to fastboot'
+fastboot           file=0xA4B95 RVA=0xA4B95 VA=0xA4B95 section=.text text='Fastboot USB: Unable to free Tx Buffer'
+fastboot           file=0xA4BBD RVA=0xA4BBD VA=0xA4BBD section=.text text='Fastboot USB: Unable to free Rx Buffer'
+fastboot           file=0xA4C59 RVA=0xA4C59 VA=0xA4C59 section=.text text='%a: Fastboot hang'
+fastboot           file=0xA4C78 RVA=0xA4C78 VA=0xA4C78 section=.text text='Fastboot Build Info: %a %a'
+fastboot           file=0xA4CD4 RVA=0xA4CD4 VA=0xA4CD4 section=.text text='couldnt Start fastboot usb device, exiting'
+fastboot           file=0xA4D11 RVA=0xA4D11 VA=0xA4D11 section=.text text='fastboot_screen'
+fastboot           file=0xA4D45 RVA=0xA4D45 VA=0xA4D45 section=.text text='fastboot exit code %d'
+fastboot           file=0xA4D6B RVA=0xA4D6B VA=0xA4D6B section=.text text='couldnt uninit fastboot'
+fastboot           file=0xA4E42 RVA=0xA4E42 VA=0xA4E42 section=.text text='couldnt init fastboot , exiting'
+fastboot           file=0xA4E7E RVA=0xA4E7E VA=0xA4E7E section=.text text='Error start the usb device, cannot enter fastboot mode'
+fastboot           file=0xA4EB4 RVA=0xA4EB4 VA=0xA4EB4 section=.text text='Error Allocate RX buffer, cannot enter fastboot mode'
+blankflash         file=0xA7265 RVA=0xA7265 VA=0xA7265 section=.text text='blankflash'
+unlock             file=0xA72D8 RVA=0xA72D8 VA=0xA72D8 section=.text text='unlock'
+unlock             file=0xA72E3 RVA=0xA72E3 VA=0xA72E3 section=.text text='get_unlock_data'
+unlock             file=0xA7DD9 RVA=0xA7DD9 VA=0xA7DD9 section=.text text='logo_unlocked'
+unlock             file=0xA85B4 RVA=0xA85B4 VA=0xA85B4 section=.text text='utags [%a] unlock is blocked for secure HW'
+unlock             file=0xA85DE RVA=0xA85DE VA=0xA85DE section=.text text='failed to unlock [%a] utags'
+unlock             file=0xA85FB RVA=0xA85FB VA=0xA85FB section=.text text='utags [%a] unlocked'
+unlock             file=0xA8A0A RVA=0xA8A0A VA=0xA8A0A section=.text text='  unlock            unlock utags'
+unlock             file=0xA8A1C RVA=0xA8A1C VA=0xA8A1C section=.text text='  unlock            unlock utags'
+unlock             file=0xADD09 RVA=0xADD09 VA=0xADD09 section=.text text='flashing_unlocked'
+unlock             file=0xADF40 RVA=0xADF40 VA=0xADF40 section=.text text='Failed to get unlock data.'
+unlock             file=0xADF4D RVA=0xADF4D VA=0xADF4D section=.text text='Unlock data:'
+unlock             file=0xADF6E RVA=0xADF6E VA=0xADF6E section=.text text='usage: fastboot oem unlock < unlock code >'
+unlock             file=0xADF77 RVA=0xADF77 VA=0xADF77 section=.text text='usage: fastboot oem unlock < unlock code >'
+unlock             file=0xADF85 RVA=0xADF85 VA=0xADF85 section=.text text='unlock_critical'
+unlock             file=0xADFAF RVA=0xADFAF VA=0xADFAF section=.text text='get_unlock_ability'
+unlock             file=0xADFCB RVA=0xADFCB VA=0xADFCB section=.text text='use "oem get_unlock_data" and web portal'
+unlock             file=0xADFFF RVA=0xADFFF VA=0xADFFF section=.text text='    http://motorola.com/unlockbootloader'
+unlock             file=0xAE2E1 RVA=0xAE2E1 VA=0xAE2E1 section=.text text='Already unlocked'
+unlock             file=0xAE322 RVA=0xAE322 VA=0xAE322 section=.text text='invalid boot state for unlocking'
+unlock             file=0xAE337 RVA=0xAE337 VA=0xAE337 section=.text text="Check 'OEM unlocking' in Android Settings > Developer Options"
+get_unlock_data    file=0xA72DF RVA=0xA72DF VA=0xA72DF section=.text text='get_unlock_data'
+get_unlock_data    file=0xADFC7 RVA=0xADFC7 VA=0xADFC7 section=.text text='use "oem get_unlock_data" and web portal'
+get_unlock_data    file=0xB06A0 RVA=0xB06A0 VA=0xB06A0 section=.text text='get_unlock_data: Version 2 datablock'
+get_unlock_data    file=0xB06C6 RVA=0xB06C6 VA=0xB06C6 section=.text text='get_unlock_data: Version 1 datablock'
+get_unlock_data    file=0xB06EC RVA=0xB06EC VA=0xB06EC section=.text text='get_unlock_data: Unsupported datablock'
+get_unlock_data    file=0xB0714 RVA=0xB0714 VA=0xB0714 section=.text text='get_unlock_data: default password hash present'
+cid_prov_req       file=0xA72EF RVA=0xA72EF VA=0xA72EF section=.text text='cid_prov_req'
+read_sv            file=0xA7321 RVA=0xA7321 VA=0xA7321 section=.text text='read_sv'
+securestate        file=0xA6E29 RVA=0xA6E29 VA=0xA6E29 section=.text text='securestate'
+oem_locked         file=0xADCE5 RVA=0xADCE5 VA=0xADCE5 section=.text text='oem_locked'
+oem unlock         file=0xADF6A RVA=0xADF6A VA=0xADF6A section=.text text='usage: fastboot oem unlock < unlock code >'
+oem unlock         file=0xAE333 RVA=0xAE333 VA=0xAE333 section=.text text="Check 'OEM unlocking' in Android Settings > Developer Options"
+channelid          file=0xA6E1B RVA=0xA6E1B VA=0xA6E1B section=.text text='channelid'
+carrier            file=0xA6E81 RVA=0xA6E81 VA=0xA6E81 section=.text text='carrier_sku'
+carrier            file=0xA6ECD RVA=0xA6ECD VA=0xA6ECD section=.text text='ro.carrier'
+carrier            file=0xBFCD3 RVA=0xBFCD3 VA=0xBFCD3 section=.text text=' androidboot.carrier='
+devinfo            file=0xBBE06 RVA=0xBBE06 VA=0xBBE06 section=.text text='devinfo'
+devinfo            file=0xCD404 RVA=0xCD404 VA=0xCD404 section=.data text='devinfo'
+devinfo            file=0xCE20E RVA=0xCE20E VA=0xCE20E section=.data text='devinfo'
+devinfo            file=0xCF054 RVA=0xCF054 VA=0xCF054 section=.data text='devinfo'
+devinfo            file=0xCFF5C RVA=0xCFF5C VA=0xCFF5C section=.data text='devinfo'
+flashing           file=0xA5C86 RVA=0xA5C86 VA=0xA5C86 section=.text text='flashing avb_custom_key'
+flashing           file=0xA5C9F RVA=0xA5C9F VA=0xA5C9F section=.text text='Flashing avb_custom_key failed'
+flashing           file=0xA5D0F RVA=0xA5D0F VA=0xA5D0F section=.text text='DAP flashing is not supported!'
+flashing           file=0xA5DF4 RVA=0xA5DF4 VA=0xA5DF4 section=.text text='Error flashing partition'
+flashing           file=0xA66E1 RVA=0xA66E1 VA=0xA66E1 section=.text text='dap_flashing'
+flashing           file=0xA66F3 RVA=0xA66F3 VA=0xA66F3 section=.text text='CAUTION: Flashing dynamic partition in bootloader is a lab function! Please use at your own risk!'
+flashing           file=0xA678A RVA=0xA678A VA=0xA678A section=.text text='  Bootloader MUST NOT allow the flashing of dynamic partitions.'
+flashing           file=0xAA70A RVA=0xAA70A VA=0xAA70A section=.text text="- flashing '%a' to '%a'"
+flashing           file=0xADCF0 RVA=0xADCF0 VA=0xADCF0 section=.text text='flashing_locked'
+flashing           file=0xADD00 RVA=0xADD00 VA=0xADD00 section=.text text='flashing_unlocked'
+flashing           file=0xAEA31 RVA=0xAEA31 VA=0xAEA31 section=.text text='  Flashing images can result in a non-boot condition.'
+flashing           file=0xAF39D RVA=0xAF39D VA=0xAF39D section=.text text='WARNING: Flashing vbmeta image is required prior to'
+flashing           file=0xAF3CA RVA=0xAF3CA VA=0xAF3CA section=.text text='  flashing super image.'
+signature          file=0xA72BA RVA=0xA72BA VA=0xA72BA section=.text text='build-signature'
+signature          file=0xB24D3 RVA=0xB24D3 VA=0xB24D3 section=.text text='dbval_validate_datablock - Check DB Signature'
+signature          file=0xB2642 RVA=0xB2642 VA=0xB2642 section=.text text='dbval_db_gen_hdr_signature_alg - Signature alg is DBVAL_SIG_ALG_PKCS1_15_SHA1'
+signature          file=0xB2652 RVA=0xB2652 VA=0xB2652 section=.text text='dbval_db_gen_hdr_signature_alg - Signature alg is DBVAL_SIG_ALG_PKCS1_15_SHA1'
+signature          file=0xB2690 RVA=0xB2690 VA=0xB2690 section=.text text='dbval_db_gen_hdr_signature_alg - Signature alg is DBVAL_SIG_ALG_PKCS1_15_SHA256'
+signature          file=0xB26A0 RVA=0xB26A0 VA=0xB26A0 section=.text text='dbval_db_gen_hdr_signature_alg - Signature alg is DBVAL_SIG_ALG_PKCS1_15_SHA256'
+signature          file=0xB2DC1 RVA=0xB2DC1 VA=0xB2DC1 section=.text text='dbval_db_validate_gen_hdr - validate signature algorithm'
+signature          file=0xB2EFD RVA=0xB2EFD VA=0xB2EFD section=.text text='dbval_validate_generic_datablock - Check DB Signature'
+signature          file=0xB4AF4 RVA=0xB4AF4 VA=0xB4AF4 section=.text text='qti signature size: 0x%x'
+signature          file=0xB531A RVA=0xB531A VA=0xB531A section=.text text='signature: 0x%x'
+signature          file=0xB6ADE RVA=0xB6ADE VA=0xB6ADE section=.text text='Signature length does not match key length.'
+signature          file=0xB6B36 RVA=0xB6B36 VA=0xB6B36 section=.text text='Padding length does not match hash and signature lengths.'
+signature          file=0xB86F0 RVA=0xB86F0 VA=0xB86F0 section=.text text='Signature is not entirely in its block.'
+signature          file=0xB8809 RVA=0xB8809 VA=0xB8809 section=.text text='SIGNATURE_MISMATCH'
+signature          file=0xC4834 RVA=0xC4834 VA=0xC4834 section=.text text='Build signature offset out of partition boundary'
+signature          file=0xC4875 RVA=0xC4875 VA=0xC4875 section=.text text='Failed to read build signature sector'
+signature          file=0xC4893 RVA=0xC4893 VA=0xC4893 section=.text text='BEGIN BUILD SIGNATURE'
+signature          file=0xC48A3 RVA=0xC48A3 VA=0xC48A3 section=.text text='Build signature not found at offset [0x%llx]'
+signature          file=0xC48D1 RVA=0xC48D1 VA=0xC48D1 section=.text text='Build signature line too long'
+signature          file=0xC48F0 RVA=0xC48F0 VA=0xC48F0 section=.text text='Build signature out of range'
+token              file=0xA69A6 RVA=0xA69A6 VA=0xA69A6 section=.text text='debug_token'
+token              file=0xADD25 RVA=0xADD25 VA=0xADD25 section=.text text=':DEBUG TOKEN'
+token              file=0xADEF8 RVA=0xADEF8 VA=0xADEF8 section=.text text='Clear debug token first.'
+token              file=0xB043E RVA=0xB043E VA=0xB043E section=.text text='Token too big for partition'
+motorola           file=0xA75A4 RVA=0xA75A4 VA=0xA75A4 section=.text text='Latest Motorola fastboot required, download from: http://goo.gl/Qyzg2L'
+motorola           file=0xAA3A9 RVA=0xAA3A9 VA=0xAA3A9 section=.text text='Motorola fastboot required.'
+motorola           file=0xACC81 RVA=0xACC81 VA=0xACC81 section=.text text='Failed to locate Motorola hwid protocol!'
+motorola           file=0xADFF2 RVA=0xADFF2 VA=0xADFF2 section=.text text='    http://motorola.com/unlockbootloader'
+motorola           file=0xAE9D6 RVA=0xAE9D6 VA=0xAE9D6 section=.text text=' Motorola:#MAP4#OTA#466-6-133:#1913'
+motorola           file=0xB1BDA RVA=0xB1BDA VA=0xB1BDA section=.text text='Motorola, Inc.1907'
+motorola           file=0xB1C2E RVA=0xB1C2E VA=0xB1C2E section=.text text='%Motorola Security Engineering Root CA0'
+motorola           file=0xB1C8E RVA=0xB1C8E VA=0xB1C8E section=.text text='Motorola, Inc.1907'
+motorola           file=0xB1CE2 RVA=0xB1CE2 VA=0xB1CE2 section=.text text='%Motorola Security Engineering Root CA0'
+motorola           file=0xB5392 RVA=0xB5392 VA=0xB5392 section=.text text='Motorola Attestation'
+motorola           file=0xBB8C0 RVA=0xBB8C0 VA=0xBB8C0 section=.text text='Not able to locate Motorola AB protocol!'
+motorola           file=0xC4CB7 RVA=0xC4CB7 VA=0xC4CB7 section=.text text='For more information, visit our support forums: support.motorola.com'
+motorola           file=0xC4D6D RVA=0xC4D6D VA=0xC4D6D section=.text text='For more information, visit our support forums: support.motorola.com'
+motorola           file=0xC4DF7 RVA=0xC4DF7 VA=0xC4DF7 section=.text text='For more information, visit our support forums: support.motorola.com'
+motorola           file=0xC4EA4 RVA=0xC4EA4 VA=0xC4EA4 section=.text text='For more information, visit our support forums: support.motorola.com'
+motorola           file=0xC638C RVA=0xC638C VA=0xC638C section=.text text='Failed to locate Motorola WriteProtect protocol!'
+motorola           file=0xC84A0 RVA=0xC84A0 VA=0xC84A0 section=.text text='Failed to locate Motorola Prov protocol!'
+motorola           file=0xCCDD0 RVA=0xCCDD0 VA=0xCCDD0 section=.data text='Motorola Attestation 719-1'
+motorola           file=0xCCE3C RVA=0xCCE3C VA=0xCCE3C section=.data text='Motorola Attestation 719-1'
+motorola           file=0xCCEA0 RVA=0xCCEA0 VA=0xCCEA0 section=.data text='Motorola Attestation 719-1'
+
+Informe: C:\Users\USER\Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\motoboot-pe-layout.txt
+Cadenas: C:\Users\USER\Desktop\Motorola-Edge-Racer\Analisis-Bootloader\MotoBootModule\motoboot-string-hits.tsv

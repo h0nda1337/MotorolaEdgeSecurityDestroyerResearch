@@ -1,0 +1,66 @@
+[
+  {
+    "command": [
+      "oem",
+      "config"
+    ],
+    "returncode": 1,
+    "output": "FAILED (remote: '')\nfastboot: error: Command failed\n"
+  },
+  {
+    "command": [
+      "oem",
+      "hw"
+    ],
+    "returncode": 0,
+    "output": "(bootloader) dtv/.auto_detected: false\n(bootloader) dualsim/.auto_detected: true\n(bootloader) ecompass/.auto_detected: true\n(bootloader) fps/.auto_detected: true\n(bootloader) imager/.auto_detected: 48MP\n(bootloader) nfc/.auto_detected: true\n(bootloader) radio/.auto_detected: ROW\n(bootloader) ram/.auto_detected: 6GB\n(bootloader) storage/.auto_detected: 128GB\n(bootloader) .version: 1.7\n(bootloader) storage/.system: ro.vendor.hw.\n(bootloader) storage/.range: 64GB,128GB\n(bootloader) storage/.auto: key=hwprobe;index=__storage\n(bootloader) storage: 128GB\n(bootloader) ram/.system: ro.vendor.hw.\n(bootloader) ram/.range: 4GB,6GB\n(bootloader) ram/.auto: key=hwprobe;index=__ram\n(bootloader) ram: 6GB\n(bootloader) radio/.system: ro.vendor.hw.\n(bootloader) radio/.range: NA5G,ROW,APEM\n(bootloader) radio/.cmdline: androidboot.\n(bootloader) radio/.auto: key=hwid;index=2;map=1:NA5G,2:ROW,3:APEM\n(bootloader) radio: ROW\n(bootloader) nfc/.system: ro.vendor.hw.\n(bootloader) nfc/.range: true\n(bootloader) nfc/.chosen: mmi,\n(bootloader) nfc/.auto: default=true\n(bootloader) nfc: true\n(bootloader) imager/.system: ro.vendor.hw.\n(bootloader) imager/.range: 48MP\n(bootloader) imager/.chosen: mmi,\n(bootloader) imager/.auto: default=48MP\n(bootloader) imager: 48MP\n(bootloader) frontcolor/.system: ro.vendor.hw.\n(bootloader) frontcolor/.range: midnight,sangria,other\n(bootloader) frontcolor: sangria\n(bootloader) fps/.system: ro.vendor.hw.\n(bootloader) fps/.range: true\n(bootloader) fps/.chosen: mmi,\n(bootloader) fps/.auto: default=true\n(bootloader) fps: true\n(bootloader) ecompass/.system: ro.vendor.hw.\n(bootloader) ecompass/.range: true,false\n(bootloader) ecompass/.chosen: mmi,\n(bootloader) ecompass/.auto: key=hwid;index=2;map=1:true,2:true,3:fa\n(bootloader) lse\n(bootloader) ecompass: true\n(bootloader) dualsim/.system: ro.vendor.hw.\n(bootloader) dualsim/.range: true,false\n(bootloader) dualsim/.cmdline: androidboot.\n(bootloader) dualsim/.auto: default=true\n(bootloader) dualsim: false\n(bootloader) dtv/.system: ro.vendor.hw.\n(bootloader) dtv/.range: false\n(bootloader) dtv/.chosen: mmi,\n(bootloader) dtv/.auto: default=false\n(bootloader) dtv: false\n(bootloader) .attributes: .range,.cmdline,.chosen,.system,.auto\n(bootloader) .features: radio,ram,storage,dualsim,imager,frontcolor,\n(bootloader) fps,nfc,ecompass,dtv\nOKAY [  0.005s]\nFinished. Total time: 0.005s\n"
+  },
+  {
+    "command": [
+      "oem",
+      "partition"
+    ],
+    "returncode": 0,
+    "output": "(bootloader) hw: offset=128KB, size=8192KB\n(bootloader) ddr: offset=8320KB, size=1024KB\n(bootloader) last_parti0: offset=9344KB, size=7020KB\n(bootloader) xbl_a: offset=128KB, size=4096KB\n(bootloader) xbl_config_a: offset=4224KB, size=128KB\n(bootloader) last_parti1: offset=4352KB, size=3820KB\n(bootloader) xbl_b: offset=128KB, size=4096KB\n(bootloader) xbl_config_b: offset=4224KB, size=128KB\n(bootloader) last_parti2: offset=4352KB, size=3820KB\n(bootloader) aop_a: offset=128KB, size=512KB\n(bootloader) tz_a: offset=640KB, size=4096KB\n(bootloader) hyp_a: offset=4736KB, size=512KB\n(bootloader) storsec_a: offset=5248KB, size=128KB\n(bootloader) devcfg_a: offset=5376KB, size=128KB\n(bootloader) keymaster_a: offset=5504KB, size=512KB\n(bootloader) prov_a: offset=6016KB, size=256KB\n(bootloader) abl_a: offset=6272KB, size=1024KB\n(bootloader) qupfw_a: offset=7296KB, size=80KB\n(bootloader) uefisecapp_a: offset=7376KB, size=2048KB\n(bootloader) vbmeta_a: offset=9424KB, size=64KB\n(bootloader) vbmeta_system_a: offset=9488KB, size=64KB\n(bootloader) fsg_a: offset=9600KB, size=65536KB\n(bootloader) modem_a: offset=75136KB, size=310272KB\n(bootloader) bluetooth_a: offset=385408KB, size=1024KB\n(bootloader) dsp_a: offset=386432KB, size=65536KB\n(bootloader) logo_a: offset=451968KB, size=16384KB\n(bootloader) boot_a: offset=468352KB, size=98304KB\n(bootloader) dtbo_a: offset=566656KB, size=2048KB\n(bootloader) recovery_a: offset=568704KB, size=102400KB\n(bootloader) last_parti3: offset=671104KB, size=620KB\n(bootloader) ssd: offset=128KB, size=8KB\n(bootloader) persist: offset=256KB, size=32768KB\n(bootloader) prodpersist: offset=33024KB, size=8192KB\n(bootloader) misc: offset=41216KB, size=1024KB\n(bootloader) frp: offset=42240KB, size=512KB\n(bootloader) utags: offset=42752KB, size=512KB\n(bootloader) utagsBackup: offset=43264KB, size=512KB\n(bootloader) cid: offset=43776KB, size=128KB\n(bootloader) metadata: offset=43904KB, size=16384KB\n(bootloader) kpan: offset=60288KB, size=8192KB\n(bootloader) sp: offset=68480KB, size=8192KB\n(bootloader) carrier: offset=76672KB, size=16384KB\n(bootloader) modemst1: offset=93056KB, size=2560KB\n(bootloader) modemst2: offset=95616KB, size=2560KB\n(bootloader) fsc: offset=98176KB, size=128KB\n(bootloader) dhob: offset=98304KB, size=32KB\n(bootloader) devinfo: offset=98432KB, size=4KB\n(bootloader) logfs: offset=98436KB, size=8192KB\n(bootloader) apdp: offset=106628KB, size=256KB\n(bootloader) msadp: offset=106884KB, size=256KB\n(bootloader) spunvm: offset=107264KB, size=8192KB\n(bootloader) limits: offset=115456KB, size=4KB\n(bootloader) limits-cdsp: offset=115460KB, size=4KB\n(bootloader) uefivarstore: offset=115464KB, size=512KB\n(bootloader) padA: offset=116096KB, size=640KB\n(bootloader) super: offset=116736KB, size=10484736KB\n(bootloader) padB: offset=10601472KB, size=384KB\n(bootloader) userdata: offset=10601856KB, size=112974444KB\n(bootloader) aop_b: offset=128KB, size=512KB\n(bootloader) tz_b: offset=640KB, size=4096KB\n(bootloader) hyp_b: offset=4736KB, size=512KB\n(bootloader) storsec_b: offset=5248KB, size=128KB\n(bootloader) devcfg_b: offset=5376KB, size=128KB\n(bootloader) keymaster_b: offset=5504KB, size=512KB\n(bootloader) prov_b: offset=6016KB, size=256KB\n(bootloader) abl_b: offset=6272KB, size=1024KB\n(bootloader) qupfw_b: offset=7296KB, size=80KB\n(bootloader) uefisecapp_b: offset=7376KB, size=2048KB\n(bootloader) vbmeta_b: offset=9424KB, size=64KB\n(bootloader) vbmeta_system_b: offset=9488KB, size=64KB\n(bootloader) fsg_b: offset=9600KB, size=65536KB\n(bootloader) modem_b: offset=75136KB, size=310272KB\n(bootloader) bluetooth_b: offset=385408KB, size=1024KB\n(bootloader) dsp_b: offset=386432KB, size=65536KB\n(bootloader) logo_b: offset=451968KB, size=16384KB\n(bootloader) boot_b: offset=468352KB, size=98304KB\n(bootloader) dtbo_b: offset=566656KB, size=2048KB\n(bootloader) recovery_b: offset=568704KB, size=102400KB\n(bootloader) last_parti4: offset=671104KB, size=620KB\n(bootloader) system_a: offset=116736KB, size=1329532KB\n(bootloader) vendor_a: offset=116736KB, size=663760KB\n(bootloader) product_a: offset=116736KB, size=2634616KB\n(bootloader) system_b: offset=116736KB, size=1329536KB\n(bootloader) vendor_b: offset=116736KB, size=663748KB\n(bootloader) product_b: offset=116736KB, size=2634616KB\nOKAY [  0.007s]\nFinished. Total time: 0.007s\n"
+  },
+  {
+    "command": [
+      "flashing",
+      "get_unlock_ability"
+    ],
+    "returncode": 0,
+    "output": "(bootloader) use \"oem get_unlock_data\" and web portal\n(bootloader)     http://motorola.com/unlockbootloader\nOKAY [  0.000s]\nFinished. Total time: 0.000s\n"
+  },
+  {
+    "command": [
+      "oem",
+      "unlock"
+    ],
+    "returncode": 1,
+    "output": "(bootloader) usage: fastboot oem unlock < unlock code >\nFAILED (remote: '')\nfastboot: error: Command failed\n"
+  },
+  {
+    "command": [
+      "getvar",
+      "securestate"
+    ],
+    "returncode": 0,
+    "output": "securestate: oem_locked\nFinished. Total time: 0.000s\n"
+  },
+  {
+    "command": [
+      "flashing",
+      "unlock"
+    ],
+    "returncode": 1,
+    "output": "(bootloader) usage: fastboot oem unlock < unlock code >\nFAILED (remote: '')\nfastboot: error: Command failed\n"
+  },
+  {
+    "command": [
+      "getvar",
+      "securestate"
+    ],
+    "returncode": 0,
+    "output": "securestate: oem_locked\nFinished. Total time: 0.000s\n"
+  }
+]

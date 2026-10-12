@@ -1,0 +1,28 @@
+{
+  "collected_at_utc": "2026-10-11T23:58:54.792421+00:00",
+  "transport": "USB",
+  "adb_state": "device",
+  "properties": {
+    "ro.product.model": "motorola edge",
+    "ro.product.device": "racer",
+    "ro.boot.bootloader": "MBM-3.0-racer_retail-f5420c43412-220729",
+    "ro.boot.flash.locked": "1",
+    "ro.boot.verifiedbootstate": "green",
+    "ro.oem_unlock_supported": "1",
+    "sys.oem_unlock_allowed": "1",
+    "ro.carrier": "attmx",
+    "ro.build.version.release": "11",
+    "ro.build.version.security_patch": "2022-08-01",
+    "ro.boot.hab.cid": "50",
+    "ro.debuggable": "0",
+    "ro.secure": "1",
+    "sys.usb.config": "mtp,adb",
+    "sys.usb.state": "mtp,adb"
+  },
+  "adb_enabled": "1",
+  "adb_wifi_enabled": "1",
+  "kernel": "4.19.125-perf+",
+  "selinux": "Enforcing",
+  "cid_read_result": "adb pull failed: Permission denied",
+  "phone_flash_or_erase_performed": false
+}

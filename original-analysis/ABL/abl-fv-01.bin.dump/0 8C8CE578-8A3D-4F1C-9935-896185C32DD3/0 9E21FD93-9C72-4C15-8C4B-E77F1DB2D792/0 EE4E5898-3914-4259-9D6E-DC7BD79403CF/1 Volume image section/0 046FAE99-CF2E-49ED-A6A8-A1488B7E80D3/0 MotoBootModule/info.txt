@@ -1,0 +1,13 @@
+Type: File
+Subtype: Application
+Text: MotoBootModule
+Offset: 78h
+Full size: D6040h (876608)
+Header size: 18h (24)
+Body size: D6028h (876584)
+File GUID: 9AB20751-6179-47F8-AF85-796468678F92
+Type: 09h
+Attributes: 00h
+State: F8h
+Header checksum: 8Ch, valid
+Data checksum: AAh, valid

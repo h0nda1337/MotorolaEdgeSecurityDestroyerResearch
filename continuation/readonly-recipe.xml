@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<recipe>
+  <configure MemoryName="UFS" SkipStorageInit="0"/>
+  <print what="Read-only CID/security metadata investigation"/>
+  <backup name="cid"/>
+  <backup name="utags"/>
+  <backup name="devinfo"/>
+  <backup name="sp"/>
+  <backup commit="1"/>
+</recipe>

@@ -1,0 +1,12 @@
+[
+  {
+    "key": "debug-public-key-1.pem",
+    "status": "C",
+    "factor_count": 1
+  },
+  {
+    "key": "debug-public-key-2.pem",
+    "status": "C",
+    "factor_count": 1
+  }
+]

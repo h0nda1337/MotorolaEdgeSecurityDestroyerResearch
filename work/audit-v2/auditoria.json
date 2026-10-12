@@ -1,0 +1,934 @@
+{
+  "files": 184,
+  "total_bytes": 15579429558,
+  "extensions": {
+    ".bin": 35,
+    ".txt": 49,
+    ".csv": 1,
+    ".py": 8,
+    ".xml": 9,
+    ".elf": 4,
+    ".mbn": 8,
+    ".tsv": 2,
+    ".md": 6,
+    ".efi": 1,
+    ".img": 12,
+    ".png": 3,
+    ".nvm": 2,
+    ".0": 2,
+    ".1": 2,
+    ".2": 2,
+    ".3": 2,
+    ".4": 2,
+    ".5": 2,
+    ".6": 2,
+    ".7": 2,
+    ".8": 2,
+    ".9": 2,
+    ".pac": 1,
+    ".zip": 2,
+    ".tmp": 1,
+    ".gpr": 1,
+    ".prp": 2,
+    ".gbf": 1,
+    ".bak": 2,
+    ".dat": 3,
+    ".java": 4,
+    "(none)": 6,
+    ".exe": 1
+  },
+  "pe": {
+    "sha256": "26abc200a3333f06bceaa1e5cd89c3ace8bea187a2e16a492a5499b13d9b5b97",
+    "machine": "0xaa64",
+    "imagebase": 0,
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "virtual_size": 831488,
+        "raw": 4096,
+        "raw_size": 831488
+      },
+      {
+        "name": ".data",
+        "rva": 835584,
+        "virtual_size": 36864,
+        "raw": 835584,
+        "raw_size": 36864
+      },
+      {
+        "name": ".reloc",
+        "rva": 872448,
+        "virtual_size": 4096,
+        "raw": 872448,
+        "raw_size": 4096
+      }
+    ]
+  },
+  "oem_table": [
+    {
+      "rva": "0xcc760",
+      "name": "blankflash",
+      "handler": "0xd2a8",
+      "flags": "0x10000"
+    },
+    {
+      "rva": "0xcc778",
+      "name": "fb_mode_set",
+      "handler": "0xd300",
+      "flags": "0x10000"
+    },
+    {
+      "rva": "0xcc790",
+      "name": "fb_mode_clear",
+      "handler": "0xd340",
+      "flags": "0x10000"
+    },
+    {
+      "rva": "0xcc7a8",
+      "name": "bp-tools-on",
+      "handler": "0xd3f0",
+      "flags": "0x10000"
+    },
+    {
+      "rva": "0xcc7c0",
+      "name": "bp-tools-off",
+      "handler": "0xd440",
+      "flags": "0x10000"
+    },
+    {
+      "rva": "0xcc7d8",
+      "name": "qcom-on",
+      "handler": "0xd4f8",
+      "flags": "0x10000"
+    },
+    {
+      "rva": "0xcc7f0",
+      "name": "qcom-off",
+      "handler": "0xd548",
+      "flags": "0x1"
+    },
+    {
+      "rva": "0xcc808",
+      "name": "partitions",
+      "handler": "0xd600",
+      "flags": "0x100"
+    },
+    {
+      "rva": "0xcc820",
+      "name": "ramdump",
+      "handler": "0x12700",
+      "flags": "0x0"
+    },
+    {
+      "rva": "0xcc838",
+      "name": "build-signature",
+      "handler": "0xd630",
+      "flags": "0x100"
+    },
+    {
+      "rva": "0xcc850",
+      "name": "ssm",
+      "handler": "0xcc80",
+      "flags": "0x100"
+    },
+    {
+      "rva": "0xcc868",
+      "name": "ssm_test",
+      "handler": "0xcc98",
+      "flags": "0x100"
+    },
+    {
+      "rva": "0xcc880",
+      "name": "wptest",
+      "handler": "0xccb0",
+      "flags": "0x100"
+    },
+    {
+      "rva": "0xcc898",
+      "name": "display",
+      "handler": "0xd658",
+      "flags": "0x100"
+    },
+    {
+      "rva": "0xcc8b0",
+      "name": "backlight",
+      "handler": "0xd7f8",
+      "flags": "0x10000"
+    },
+    {
+      "rva": "0xcc8c8",
+      "name": "unlock",
+      "handler": "0xcc40",
+      "flags": "0x10000"
+    },
+    {
+      "rva": "0xcc8e0",
+      "name": "lock",
+      "handler": "0xcc60",
+      "flags": "0x10000"
+    },
+    {
+      "rva": "0xcc8f8",
+      "name": "get_unlock_data",
+      "handler": "0xcc28",
+      "flags": "0x10000"
+    },
+    {
+      "rva": "0xcc910",
+      "name": "cid_prov_req",
+      "handler": "0xcc10",
+      "flags": "0x0"
+    },
+    {
+      "rva": "0xcc928",
+      "name": "prod_fuse",
+      "handler": "0xccc8",
+      "flags": "0x100"
+    },
+    {
+      "rva": "0xcc940",
+      "name": "regex",
+      "handler": "0xd9b8",
+      "flags": "0x10000"
+    },
+    {
+      "rva": "0xcc958",
+      "name": "off-mode-charge",
+      "handler": "0xdae0",
+      "flags": "0x100"
+    },
+    {
+      "rva": "0xcc970",
+      "name": "hwid",
+      "handler": "0x11e18",
+      "flags": "0x10000"
+    },
+    {
+      "rva": "0xcc988",
+      "name": "read_sv",
+      "handler": "0xdce8",
+      "flags": "0x100"
+    }
+  ],
+  "candidate_global_refs": [
+    {
+      "pc": "0x20a34",
+      "target": "0xd2975",
+      "label": "oem_permission_flags",
+      "instruction": "strb w10, [x9, #0x975]"
+    },
+    {
+      "pc": "0x20ee8",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w0, [x19, #0x364]"
+    },
+    {
+      "pc": "0x20f08",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x20f10",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w0, [x19, #0x364]"
+    },
+    {
+      "pc": "0x20f50",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x19, #0x364]"
+    },
+    {
+      "pc": "0x20f70",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x20f78",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x19, #0x364]"
+    },
+    {
+      "pc": "0x20f8c",
+      "target": "0xd2975",
+      "label": "oem_permission_flags",
+      "instruction": "ldrb w9, [x9, #0x975]"
+    },
+    {
+      "pc": "0x20fd0",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x19, #0x364]"
+    },
+    {
+      "pc": "0x20ff0",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x20ff8",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x19, #0x364]"
+    },
+    {
+      "pc": "0x21068",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "str w8, [x20, #0x968]"
+    },
+    {
+      "pc": "0x21144",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "str w9, [x8, #0x990]"
+    },
+    {
+      "pc": "0x21210",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x22, #0x364]"
+    },
+    {
+      "pc": "0x21230",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x22, #0x364]"
+    },
+    {
+      "pc": "0x21238",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x22, #0x364]"
+    },
+    {
+      "pc": "0x21248",
+      "target": "0xd2975",
+      "label": "oem_permission_flags",
+      "instruction": "ldrb w8, [x8, #0x975]"
+    },
+    {
+      "pc": "0x213cc",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "str w9, [x10, #0x990]"
+    },
+    {
+      "pc": "0x215d0",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x19, #0x968]"
+    },
+    {
+      "pc": "0x2163c",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x22, #0x364]"
+    },
+    {
+      "pc": "0x2165c",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x22, #0x364]"
+    },
+    {
+      "pc": "0x21664",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x22, #0x364]"
+    },
+    {
+      "pc": "0x21680",
+      "target": "0xd2975",
+      "label": "oem_permission_flags",
+      "instruction": "ldrb w9, [x9, #0x975]"
+    },
+    {
+      "pc": "0x2191c",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x9, #0x968]"
+    },
+    {
+      "pc": "0x21970",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w9, [x9, #0x968]"
+    },
+    {
+      "pc": "0x219d4",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w8, [x8, #0x990]"
+    },
+    {
+      "pc": "0x21a3c",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x9, #0x968]"
+    },
+    {
+      "pc": "0x21a40",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w9, [x10, #0x990]"
+    },
+    {
+      "pc": "0x21aa4",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x9, #0x968]"
+    },
+    {
+      "pc": "0x21af8",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x9, #0x968]"
+    },
+    {
+      "pc": "0x21afc",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w9, [x10, #0x990]"
+    },
+    {
+      "pc": "0x21b90",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x9, #0x968]"
+    },
+    {
+      "pc": "0x21bd4",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w9, [x9, #0x990]"
+    },
+    {
+      "pc": "0x21c20",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x9, #0x968]"
+    },
+    {
+      "pc": "0x21c50",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w8, [x8, #0x990]"
+    },
+    {
+      "pc": "0x21c9c",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x9, #0x968]"
+    },
+    {
+      "pc": "0x21ca0",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w9, [x10, #0x990]"
+    },
+    {
+      "pc": "0x21cc4",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x19, #0x364]"
+    },
+    {
+      "pc": "0x21ce4",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x21cec",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x19, #0x364]"
+    },
+    {
+      "pc": "0x21cfc",
+      "target": "0xd2975",
+      "label": "oem_permission_flags",
+      "instruction": "ldrb w9, [x9, #0x975]"
+    },
+    {
+      "pc": "0x21d4c",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x9, #0x968]"
+    },
+    {
+      "pc": "0x21d50",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w9, [x10, #0x990]"
+    },
+    {
+      "pc": "0x21d74",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x19, #0x364]"
+    },
+    {
+      "pc": "0x21d94",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x21d9c",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x19, #0x364]"
+    },
+    {
+      "pc": "0x21db0",
+      "target": "0xd2975",
+      "label": "oem_permission_flags",
+      "instruction": "ldrb w8, [x8, #0x975]"
+    },
+    {
+      "pc": "0x21e2c",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x8, #0x968]"
+    },
+    {
+      "pc": "0x21e40",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w9, [x9, #0x990]"
+    },
+    {
+      "pc": "0x21e5c",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x20, #0x364]"
+    },
+    {
+      "pc": "0x21e7c",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x20, #0x364]"
+    },
+    {
+      "pc": "0x21e84",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x20, #0x364]"
+    },
+    {
+      "pc": "0x21e94",
+      "target": "0xd2975",
+      "label": "oem_permission_flags",
+      "instruction": "ldrb w8, [x8, #0x975]"
+    },
+    {
+      "pc": "0x21f54",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w9, [x19, #0x968]"
+    },
+    {
+      "pc": "0x21f68",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w8, [x8, #0x990]"
+    },
+    {
+      "pc": "0x21f84",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x22, #0x364]"
+    },
+    {
+      "pc": "0x21fa8",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x22, #0x364]"
+    },
+    {
+      "pc": "0x21fb0",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x22, #0x364]"
+    },
+    {
+      "pc": "0x21fbc",
+      "target": "0xd2975",
+      "label": "oem_permission_flags",
+      "instruction": "ldrb w9, [x21, #0x975]"
+    },
+    {
+      "pc": "0x220c8",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x220e8",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x220f0",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x2211c",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x221f0",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x19, #0x364]"
+    },
+    {
+      "pc": "0x22210",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x22218",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x19, #0x364]"
+    },
+    {
+      "pc": "0x22288",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x9, #0x968]"
+    },
+    {
+      "pc": "0x22310",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w8, [x8, #0x990]"
+    },
+    {
+      "pc": "0x224ac",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x19, #0x968]"
+    },
+    {
+      "pc": "0x224c0",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w9, [x9, #0x990]"
+    },
+    {
+      "pc": "0x227b4",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w8, [x23, #0x990]"
+    },
+    {
+      "pc": "0x227bc",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w9, [x22, #0x968]"
+    },
+    {
+      "pc": "0x227e8",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x22, #0x968]"
+    },
+    {
+      "pc": "0x227fc",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w8, [x23, #0x990]"
+    },
+    {
+      "pc": "0x2280c",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x2282c",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x22834",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x22860",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x22868",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x22b18",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x9, #0x968]"
+    },
+    {
+      "pc": "0x22b30",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w8, [x8, #0x990]"
+    },
+    {
+      "pc": "0x22b54",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x19, #0x364]"
+    },
+    {
+      "pc": "0x22b74",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x22b7c",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x19, #0x364]"
+    },
+    {
+      "pc": "0x22d9c",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x8, #0x968]"
+    },
+    {
+      "pc": "0x22dac",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w8, [x8, #0x990]"
+    },
+    {
+      "pc": "0x22df0",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x19, #0x968]"
+    },
+    {
+      "pc": "0x22fc4",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x20, #0x968]"
+    },
+    {
+      "pc": "0x23020",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x21, #0x364]"
+    },
+    {
+      "pc": "0x23040",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x21, #0x364]"
+    },
+    {
+      "pc": "0x23048",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x21, #0x364]"
+    },
+    {
+      "pc": "0x23058",
+      "target": "0xd2975",
+      "label": "oem_permission_flags",
+      "instruction": "ldrb w8, [x8, #0x975]"
+    },
+    {
+      "pc": "0x2306c",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w8, [x8, #0x990]"
+    },
+    {
+      "pc": "0x23098",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w8, [x8, #0x990]"
+    },
+    {
+      "pc": "0x23118",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w8, [x8, #0x990]"
+    },
+    {
+      "pc": "0x23394",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w8, [x8, #0x990]"
+    },
+    {
+      "pc": "0x233d0",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w8, [x8, #0x990]"
+    },
+    {
+      "pc": "0x23a00",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x8, #0x968]"
+    },
+    {
+      "pc": "0x23a14",
+      "target": "0xd2990",
+      "label": "factory_state_candidate",
+      "instruction": "ldr w8, [x8, #0x990]"
+    },
+    {
+      "pc": "0x23a24",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x19, #0x364]"
+    },
+    {
+      "pc": "0x23a44",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "str w2, [x19, #0x364]"
+    },
+    {
+      "pc": "0x23a4c",
+      "target": "0xd0364",
+      "label": "cached_cid",
+      "instruction": "ldr w8, [x19, #0x364]"
+    },
+    {
+      "pc": "0x23a60",
+      "target": "0xd2975",
+      "label": "oem_permission_flags",
+      "instruction": "ldrb w9, [x9, #0x975]"
+    },
+    {
+      "pc": "0x23adc",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x9, #0x968]"
+    },
+    {
+      "pc": "0x242b4",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x8, #0x968]"
+    },
+    {
+      "pc": "0x24488",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x25, #0x968]"
+    },
+    {
+      "pc": "0x24778",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x9, #0x968]"
+    },
+    {
+      "pc": "0x24820",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x8, #0x968]"
+    },
+    {
+      "pc": "0x248b0",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w9, [x9, #0x968]"
+    },
+    {
+      "pc": "0x27de0",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x8, #0x968]"
+    },
+    {
+      "pc": "0x2d36c",
+      "target": "0xd2968",
+      "label": "boot_state",
+      "instruction": "ldr w8, [x8, #0x968]"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "trust-anchor-1.bin",
+      "sha256": "1dc2cfaedb8e5d5117872f5b3875f55b3ee4272f3ee4b04f6410ceeb3c3c09ea",
+      "subject": "CN=PKIS Root,O=PKI Center,C=US",
+      "issuer": "CN=PKIS Root,O=PKI Center,C=US",
+      "signature_hash": "sha256",
+      "public_key_type": "RSAPublicKey",
+      "rsa_bits": 4096,
+      "not_before": "2019-08-29T17:46:31+00:00",
+      "not_after": "2069-08-29T17:46:30+00:00"
+    },
+    {
+      "name": "trust-anchor-2.bin",
+      "sha256": "bff90cb5fab3de1af04535a4c25aebfa1bd93bf1cd4b80b80707316348ad5e14",
+      "subject": "CN=Motorola Security Engineering Root CA,OU=Seamless Converged Communication Across Networks,O=Motorola\\, Inc.,C=US",
+      "issuer": "CN=Motorola Security Engineering Root CA,OU=Seamless Converged Communication Across Networks,O=Motorola\\, Inc.,C=US",
+      "signature_hash": "sha1",
+      "public_key_type": "RSAPublicKey",
+      "rsa_bits": 2048,
+      "not_before": "2003-12-05T22:00:06+00:00",
+      "not_after": "2033-12-04T22:00:06+00:00"
+    }
+  ],
+  "extension_oid_label_is_wrong": true,
+  "unlock_capture": {
+    "part_bytes": [
+      8,
+      20,
+      20,
+      16
+    ],
+    "hash_bytes": 20,
+    "hash_is_all_ff": false,
+    "version_inferred_from_hash": 1
+  },
+  "cid_request": {
+    "bytes": 182,
+    "command": "0xf0",
+    "version": 1,
+    "inner_bytes": 98,
+    "declared_inner_bytes": 98,
+    "binding_tail_zero": true,
+    "placeholder_ones20": true,
+    "placeholder_ff": true
+  },
+  "critical_hashes": {
+    "Firmware-Exacto/bootloader.img": "967dc7fe0fa7d775eae5e238ca92f03f227b4f64582a628bcb86af0445297ebf",
+    "Analisis-Bootloader/Bootloader-Extraido/15_abl.elf": "7f457ed2ee0939779d18b5d3b9f6d052314396d9117f6502df8d8f61d04a64fb"
+  },
+  "abl_found_exactly_in_container": true,
+  "module_matches_extracted_pe": true
+}

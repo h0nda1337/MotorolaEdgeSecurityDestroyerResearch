@@ -1,0 +1,46 @@
+[
+  {
+    "argv": [
+      "getvar",
+      "product"
+    ],
+    "returncode": 0,
+    "output": "product: racer\nFinished. Total time: 0.000s\n"
+  },
+  {
+    "argv": [
+      "getvar",
+      "securestate"
+    ],
+    "returncode": 0,
+    "output": "securestate: oem_locked\nFinished. Total time: 0.000s\n"
+  },
+  {
+    "argv": [
+      "oem",
+      "config",
+      "fsg-id"
+    ],
+    "returncode": 0,
+    "output": "(bootloader) <UTAG name=\"fsg-id\" type=\"str\" protected=\"FALSE\">\n(bootloader)   <value>\n(bootloader)     none\n(bootloader)   </value>\n(bootloader)   <description>\n(bootloader)     FSG IDs, see http://goo.gl/gPmhU\n(bootloader)   </description>\n(bootloader) </UTAG>\n\nOKAY [  0.001s]\nFinished. Total time: 0.001s\n"
+  },
+  {
+    "argv": [
+      "oem",
+      "config",
+      "fsg-id",
+      ""
+    ],
+    "returncode": 0,
+    "output": "OKAY [  0.001s]\nFinished. Total time: 0.001s\n"
+  },
+  {
+    "argv": [
+      "oem",
+      "config",
+      "fsg-id"
+    ],
+    "returncode": 0,
+    "output": "(bootloader) <UTAG name=\"fsg-id\" protected=\"FALSE\">\n(bootloader)   <value>\n(bootloader)   </value>\n(bootloader)   <description>\n(bootloader)     FSG IDs, see http://goo.gl/gPmhU\n(bootloader)   </description>\n(bootloader) </UTAG>\n\nOKAY [  0.001s]\nFinished. Total time: 0.001s\n"
+  }
+]

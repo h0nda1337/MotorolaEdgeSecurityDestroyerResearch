@@ -1,0 +1,7 @@
+Type: Free space
+Subtype: 
+Base: 4CB40h
+Offset: 4CB40h
+Full size: 34C0h (13504)
+Body size: 34C0h (13504)
+

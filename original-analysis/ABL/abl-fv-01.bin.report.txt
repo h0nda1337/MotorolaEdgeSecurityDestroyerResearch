@@ -1,0 +1,12 @@
+        Type         |        Subtype        |   Base   |   Size   |  CRC32   |   Name 
+ Image               | UEFI                  | 00000000 | 00050000 | E9390296 |  UEFI image
+ Volume              | FFSv2                 | 00000000 | 00050000 | E9390296 | - 8C8CE578-8A3D-4F1C-9935-896185C32DD3
+ File                | Volume image          | 00000048 | 0004CAF3 | 497DC511 | -- 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792
+ Section             | GUID defined          | 00000060 | 0004CADB | 4C846CA4 | --- EE4E5898-3914-4259-9D6E-DC7BD79403CF
+ Section             | Raw                   |   N/A    | 00000004 | CA4DE08B | ---- Raw section
+ Section             | Volume image          |   N/A    | 000D60C4 | CADF3D2C | ---- Volume image section
+ Volume              | FFSv2                 |   N/A    | 000D60C0 | 7953E726 | ----- 046FAE99-CF2E-49ED-A6A8-A1488B7E80D3
+ File                | Application           |   N/A    | 000D6040 | 6424A366 | ------ 9AB20751-6179-47F8-AF85-796468678F92 | MotoBootModule
+ Section             | UI                    |   N/A    | 00000022 | 996A286C | ------- UI section
+ Section             | PE32 image            |   N/A    | 000D6004 | E59071F4 | ------- PE32 image section
+ Free space          |                       | 0004CB40 | 000034C0 | 7C4A4980 | -- Volume free space

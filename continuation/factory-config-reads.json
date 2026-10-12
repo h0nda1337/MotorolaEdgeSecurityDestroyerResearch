@@ -1,0 +1,43 @@
+[
+  {
+    "argv": [
+      "oem",
+      "config",
+      "bootmode"
+    ],
+    "returncode": 0,
+    "output": "(bootloader) <UTAG name=\"bootmode\" type=\"str\" protected=\"FALSE\">\n(bootloader)   <value>\n(bootloader)     \n(bootloader)   </value>\n(bootloader)   <description>\n(bootloader)     To force certain bootmode\n(bootloader)     (valid values are \"fastboot\", \"factory\",\n(bootloader)     \"bp-tools\", \"qcom\", and \"normal\")\n(bootloader)   </description>\n(bootloader) </UTAG>\n\nOKAY [  0.002s]\nFinished. Total time: 0.002s\n"
+  },
+  {
+    "argv": [
+      "getvar",
+      "factory-modes"
+    ],
+    "returncode": 0,
+    "output": "factory-modes: disabled\nFinished. Total time: 0.001s\n"
+  },
+  {
+    "argv": [
+      "getvar",
+      "iswarrantyvoid"
+    ],
+    "returncode": 0,
+    "output": "iswarrantyvoid: no\nFinished. Total time: 0.001s\n"
+  },
+  {
+    "argv": [
+      "getvar",
+      "unlocked"
+    ],
+    "returncode": 0,
+    "output": "(bootloader) unlocked: not found\ngetvar:unlocked                                    FAILED (remote: '')\nFinished. Total time: 0.060s\n"
+  },
+  {
+    "argv": [
+      "oem",
+      "config"
+    ],
+    "returncode": 1,
+    "output": "FAILED (remote: '')\nfastboot: error: Command failed\n"
+  }
+]

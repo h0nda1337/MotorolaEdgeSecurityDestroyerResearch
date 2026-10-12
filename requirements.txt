@@ -1,0 +1,5 @@
+capstone
+unicorn
+vmlinux-to-elf==1.3.6
+pyserial
+cryptography

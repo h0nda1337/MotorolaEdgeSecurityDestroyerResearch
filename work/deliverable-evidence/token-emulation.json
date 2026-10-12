@@ -1,0 +1,136 @@
+{
+  "module_sha256": "26abc200a3333f06bceaa1e5cd89c3ace8bea187a2e16a492a5499b13d9b5b97",
+  "limits": [
+    "Mocked hardware identity; zero signatures only.",
+    "Guarded page differs from the real fastboot download allocation.",
+    "A fault here is not evidence of executable control or an unlock."
+  ],
+  "cases": [
+    {
+      "actual_input_bytes": 400,
+      "declared_bytes": 400,
+      "binding": "wrong",
+      "signature": "all_zero",
+      "result": "returned",
+      "return_code": 85
+    },
+    {
+      "actual_input_bytes": 400,
+      "declared_bytes": 400,
+      "binding": "mocked_valid",
+      "signature": "all_zero",
+      "signature_call": {
+        "message_bytes": 272,
+        "signature_offset": 272,
+        "signature_bytes": 128,
+        "message_exceeds_input": false,
+        "signature_exceeds_input": false
+      },
+      "result": "returned",
+      "return_code": 85
+    },
+    {
+      "actual_input_bytes": 400,
+      "declared_bytes": 128,
+      "binding": "mocked_valid",
+      "signature": "all_zero",
+      "signature_call": {
+        "message_bytes": 0,
+        "signature_offset": 0,
+        "signature_bytes": 128,
+        "message_exceeds_input": false,
+        "signature_exceeds_input": false
+      },
+      "result": "returned",
+      "return_code": 85
+    },
+    {
+      "actual_input_bytes": 400,
+      "declared_bytes": 127,
+      "binding": "mocked_valid",
+      "signature": "all_zero",
+      "signature_call": {
+        "message_bytes": 4294967295,
+        "signature_offset": 65535,
+        "signature_bytes": 128,
+        "message_exceeds_input": true,
+        "signature_exceeds_input": true
+      },
+      "result": "unmapped_memory_access",
+      "fault": {
+        "pc": "0x31714",
+        "address": "0x210e72",
+        "bytes": 1,
+        "access_type": 19,
+        "offset_from_input": 65538
+      },
+      "emulator_error": "Invalid memory read (UC_ERR_READ_UNMAPPED)"
+    },
+    {
+      "actual_input_bytes": 400,
+      "declared_bytes": 0,
+      "binding": "mocked_valid",
+      "signature": "all_zero",
+      "signature_call": {
+        "message_bytes": 4294967168,
+        "signature_offset": 65408,
+        "signature_bytes": 128,
+        "message_exceeds_input": true,
+        "signature_exceeds_input": true
+      },
+      "result": "unmapped_memory_access",
+      "fault": {
+        "pc": "0x31714",
+        "address": "0x210df3",
+        "bytes": 1,
+        "access_type": 19,
+        "offset_from_input": 65411
+      },
+      "emulator_error": "Invalid memory read (UC_ERR_READ_UNMAPPED)"
+    },
+    {
+      "actual_input_bytes": 400,
+      "declared_bytes": 401,
+      "binding": "mocked_valid",
+      "signature": "all_zero",
+      "signature_call": {
+        "message_bytes": 273,
+        "signature_offset": 273,
+        "signature_bytes": 128,
+        "message_exceeds_input": false,
+        "signature_exceeds_input": true
+      },
+      "result": "unmapped_memory_access",
+      "fault": {
+        "pc": "0x31788",
+        "address": "0x201000",
+        "bytes": 1,
+        "access_type": 19,
+        "offset_from_input": 400
+      },
+      "emulator_error": "Invalid memory read (UC_ERR_READ_UNMAPPED)"
+    },
+    {
+      "actual_input_bytes": 400,
+      "declared_bytes": 65535,
+      "binding": "mocked_valid",
+      "signature": "all_zero",
+      "signature_call": {
+        "message_bytes": 65407,
+        "signature_offset": 65407,
+        "signature_bytes": 128,
+        "message_exceeds_input": true,
+        "signature_exceeds_input": true
+      },
+      "result": "unmapped_memory_access",
+      "fault": {
+        "pc": "0x31714",
+        "address": "0x210df2",
+        "bytes": 1,
+        "access_type": 19,
+        "offset_from_input": 65410
+      },
+      "emulator_error": "Invalid memory read (UC_ERR_READ_UNMAPPED)"
+    }
+  ]
+}

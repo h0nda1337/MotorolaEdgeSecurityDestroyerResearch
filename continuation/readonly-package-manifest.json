@@ -1,0 +1,22 @@
+[
+  {
+    "name": "index.xml",
+    "size": 177,
+    "sha256": "c90b5c25312113a5dbbcf6c435abfea40094072d4d4ef912ba48a8041b966284"
+  },
+  {
+    "name": "pkg.xml",
+    "size": 125,
+    "sha256": "c25ae61df8bfa06629b2da9fd0e0719beab8b618361a2843ac750dbce91cf9fb"
+  },
+  {
+    "name": "default.xml",
+    "size": 277,
+    "sha256": "05d3390f487fb204ac1a4238498207dd398b7ede241c00a57bedad12a0cc40c0"
+  },
+  {
+    "name": "programmer.elf",
+    "size": 683532,
+    "sha256": "750b66a3e163500403aba290f346d4c90259b29436b1df6ad8b3268f87bf9eb4"
+  }
+]

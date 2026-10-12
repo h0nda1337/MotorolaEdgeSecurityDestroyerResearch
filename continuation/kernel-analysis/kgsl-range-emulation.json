@@ -1,0 +1,58 @@
+{
+  "kernel_sha256": "5c73f8fa16afb640bfd281b0d4ac4072e7e1f1690520140d780887e6913b44f1",
+  "entry_static_va": "0xffffff800875b4e8",
+  "function": "kgsl_iommu_set_svm_region",
+  "mocked_svm_bounds": [
+    "0x700100000",
+    "0x800000000"
+  ],
+  "mocked_services": [
+    "spin_lock",
+    "spin_unlock",
+    "_insert_gpuaddr"
+  ],
+  "cases": [
+    {
+      "name": "ordinary_in_range",
+      "start": "0x700204000",
+      "size": "0x1000",
+      "end_mod_64": "0x700205000",
+      "reaches_insertion": true,
+      "return_w0": "0x0"
+    },
+    {
+      "name": "wraps_into_valid_range",
+      "start": "0x700204000",
+      "size": "0xffffffffffefd000",
+      "end_mod_64": "0x700101000",
+      "reaches_insertion": true,
+      "return_w0": "0x0"
+    },
+    {
+      "name": "zero_size",
+      "start": "0x700204000",
+      "size": "0x0",
+      "end_mod_64": "0x700204000",
+      "reaches_insertion": true,
+      "return_w0": "0x0"
+    },
+    {
+      "name": "exceeds_svm_bounds",
+      "start": "0x700204000",
+      "size": "0x100000000",
+      "end_mod_64": "0x800204000",
+      "reaches_insertion": false,
+      "return_w0": "0xfffffff4"
+    },
+    {
+      "name": "starts_before_svm",
+      "start": "0x7000ff000",
+      "size": "0x2000",
+      "end_mod_64": "0x700101000",
+      "reaches_insertion": false,
+      "return_w0": "0xfffffff4"
+    }
+  ],
+  "phone_io": false,
+  "root_or_unlock_demonstrated": false
+}

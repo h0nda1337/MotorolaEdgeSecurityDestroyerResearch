@@ -1,0 +1,46 @@
+{
+  "kernel_sha256": "5c73f8fa16afb640bfd281b0d4ac4072e7e1f1690520140d780887e6913b44f1",
+  "symbol_count": 118027,
+  "image_base": "0xffffff8008080000",
+  "linux_banner_offset": "0x1380018",
+  "selected": [
+    {
+      "name": "arm_lpae_map_sg",
+      "va": "0xffffff80086ce230",
+      "offset": "0x64e230",
+      "bytes": 1016
+    },
+    {
+      "name": "kgsl_ioctl_gpuobj_import",
+      "va": "0xffffff8008730038",
+      "offset": "0x6b0038",
+      "bytes": 1456
+    },
+    {
+      "name": "kgsl_ioctl_map_user_mem",
+      "va": "0xffffff8008730a08",
+      "offset": "0x6b0a08",
+      "bytes": 1200
+    },
+    {
+      "name": "kgsl_setup_useraddr",
+      "va": "0xffffff8008734fd8",
+      "offset": "0x6b4fd8",
+      "bytes": 984
+    },
+    {
+      "name": "kgsl_iommu_set_svm_region",
+      "va": "0xffffff800875b4e8",
+      "offset": "0x6db4e8",
+      "bytes": 264
+    }
+  ],
+  "missing_targets": [
+    "iommu_addr_in_svm_ranges",
+    "_gpuobj_map_useraddr",
+    "kgsl_setup_anon_useraddr",
+    "arm_lpae_init_pte",
+    "_map_usermem_addr"
+  ],
+  "phone_io": false
+}

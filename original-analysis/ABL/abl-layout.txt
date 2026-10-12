@@ -1,0 +1,41 @@
+Archivo: C:\Users\USER\Desktop\Motorola-Edge-Racer\Analisis-Bootloader\Bootloader-Extraido\15_abl.elf
+Tamaño: 339,968 bytes / 0x53000
+SHA-256: 7F457ED2EE0939779D18B5D3B9F6D052314396D9117F6502DF8D8F61D04A64FB
+
+=== ELF ===
+Clase: ELF32
+Tipo: 0x2
+Máquina: 40 (ARM)
+Entry point: 0x9FA00000
+Program headers: offset=0x34, tamaño=32, cantidad=3
+Section headers: offset=0x0, tamaño=0, cantidad=0
+
+=== PROGRAM HEADERS ===
+[00] PT_NULL      flags=0x7000000 file=0x0+0x94 vaddr=0x0 paddr=0x0 mem=0x0 align=0x0
+[01] PT_NULL      flags=0x2200000 file=0x1000+0x1A38 vaddr=0x9FA50000 paddr=0x9FA50000 mem=0x2000 align=0x1000
+[02] PT_LOAD      flags=0x7 file=0x3000+0x50000 vaddr=0x9FA00000 paddr=0x9FA00000 mem=0x50000 align=0x1000
+
+=== UEFI FIRMWARE VOLUMES ===
+[01] inicio=0x3000 firma=0x3028 longitud=0x50000 header=0x48 revision=2 fin=0x53000
+     archivo=C:\Users\USER\Desktop\Motorola-Edge-Racer\Analisis-Bootloader\ABL\abl-fv-01.bin
+     sha256=173885C9AB061EF65E80134D70E9428DBD2E693616EE481938B9F2A79077CE74
+
+=== TÉRMINOS ASCII Y UTF-16LE ===
+fastboot           ASCII=- UTF16LE=-
+get_unlock_data    ASCII=- UTF16LE=-
+cid_prov_req       ASCII=- UTF16LE=-
+read_sv            ASCII=- UTF16LE=-
+blankflash         ASCII=- UTF16LE=-
+securestate        ASCII=- UTF16LE=-
+oem_locked         ASCII=- UTF16LE=-
+oem unlock         ASCII=- UTF16LE=-
+unlock             ASCII=- UTF16LE=-
+flashing           ASCII=- UTF16LE=-
+signature          ASCII=- UTF16LE=-
+token              ASCII=- UTF16LE=-
+motorola           ASCII=0x1299, 0x12B0, 0x12C7, 0x1313, 0x1426, 0x176E, 0x1785, 0x17D4, 0x17EB, 0x1802, 0x1B45, 0x1B5C, 0x1BAB, 0x1BC2 UTF16LE=-
+channelid          ASCII=- UTF16LE=-
+carrier            ASCII=- UTF16LE=-
+devinfo            ASCII=- UTF16LE=-
+storsec            ASCII=- UTF16LE=-
+keymaster          ASCII=- UTF16LE=-

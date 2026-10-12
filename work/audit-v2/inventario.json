@@ -1,0 +1,738 @@
+[
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin",
+    "bytes": 327680
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\0 Raw section\\header.bin",
+    "bytes": 4
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\0 Raw section\\info.txt",
+    "bytes": 93
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\1 Volume image section\\0 046FAE99-CF2E-49ED-A6A8-A1488B7E80D3\\0 MotoBootModule\\0 UI section\\body.bin",
+    "bytes": 30
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\1 Volume image section\\0 046FAE99-CF2E-49ED-A6A8-A1488B7E80D3\\0 MotoBootModule\\0 UI section\\header.bin",
+    "bytes": 4
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\1 Volume image section\\0 046FAE99-CF2E-49ED-A6A8-A1488B7E80D3\\0 MotoBootModule\\0 UI section\\info.txt",
+    "bytes": 137
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\1 Volume image section\\0 046FAE99-CF2E-49ED-A6A8-A1488B7E80D3\\0 MotoBootModule\\1 PE32 image section\\body.bin",
+    "bytes": 876544
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\1 Volume image section\\0 046FAE99-CF2E-49ED-A6A8-A1488B7E80D3\\0 MotoBootModule\\1 PE32 image section\\header.bin",
+    "bytes": 4
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\1 Volume image section\\0 046FAE99-CF2E-49ED-A6A8-A1488B7E80D3\\0 MotoBootModule\\1 PE32 image section\\info.txt",
+    "bytes": 374
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\1 Volume image section\\0 046FAE99-CF2E-49ED-A6A8-A1488B7E80D3\\0 MotoBootModule\\body.bin",
+    "bytes": 876584
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\1 Volume image section\\0 046FAE99-CF2E-49ED-A6A8-A1488B7E80D3\\0 MotoBootModule\\header.bin",
+    "bytes": 24
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\1 Volume image section\\0 046FAE99-CF2E-49ED-A6A8-A1488B7E80D3\\0 MotoBootModule\\info.txt",
+    "bytes": 293
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\1 Volume image section\\0 046FAE99-CF2E-49ED-A6A8-A1488B7E80D3\\body.bin",
+    "bytes": 876616
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\1 Volume image section\\0 046FAE99-CF2E-49ED-A6A8-A1488B7E80D3\\header.bin",
+    "bytes": 120
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\1 Volume image section\\0 046FAE99-CF2E-49ED-A6A8-A1488B7E80D3\\info.txt",
+    "bytes": 460
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\1 Volume image section\\body.bin",
+    "bytes": 876736
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\1 Volume image section\\header.bin",
+    "bytes": 4
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\1 Volume image section\\info.txt",
+    "bytes": 139
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\body.bin",
+    "bytes": 314051
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\header.bin",
+    "bytes": 24
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\info.txt",
+    "bytes": 322
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\0 EE4E5898-3914-4259-9D6E-DC7BD79403CF\\unc_data.bin",
+    "bytes": 876744
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\body.bin",
+    "bytes": 314075
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\header.bin",
+    "bytes": 24
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792\\info.txt",
+    "bytes": 283
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\1 Volume free space\\body.bin",
+    "bytes": 13504
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\1 Volume free space\\info.txt",
+    "bytes": 113
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\body.bin",
+    "bytes": 327608
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\header.bin",
+    "bytes": 72
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\0 8C8CE578-8A3D-4F1C-9935-896185C32DD3\\info.txt",
+    "bytes": 385
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\body.bin",
+    "bytes": 327680
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.dump\\info.txt",
+    "bytes": 108
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.guids.csv",
+    "bytes": 53
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-fv-01.bin.report.txt",
+    "bytes": 1326
+  },
+  {
+    "path": "Analisis-Bootloader\\ABL\\abl-layout.txt",
+    "bytes": 1862
+  },
+  {
+    "path": "Analisis-Bootloader\\analisis-motoboot-pe.txt",
+    "bytes": 28972
+  },
+  {
+    "path": "Analisis-Bootloader\\analyze_motoboot_pe.py",
+    "bytes": 8704
+  },
+  {
+    "path": "Analisis-Bootloader\\Bootloader-Extraido\\01_index.xml",
+    "bytes": 134
+  },
+  {
+    "path": "Analisis-Bootloader\\Bootloader-Extraido\\02_pkg.xml",
+    "bytes": 80
+  },
+  {
+    "path": "Analisis-Bootloader\\Bootloader-Extraido\\03_default.xml",
+    "bytes": 708
+  },
+  {
+    "path": "Analisis-Bootloader\\Bootloader-Extraido\\04_xbl.elf",
+    "bytes": 4189312
+  },
+  {
+    "path": "Analisis-Bootloader\\Bootloader-Extraido\\05_xbl_config.elf",
+    "bytes": 126080
+  },
+  {
+    "path": "Analisis-Bootloader\\Bootloader-Extraido\\06_qupfw.elf",
+    "bytes": 76928
+  },
+  {
+    "path": "Analisis-Bootloader\\Bootloader-Extraido\\07_aop.mbn",
+    "bytes": 519296
+  },
+  {
+    "path": "Analisis-Bootloader\\Bootloader-Extraido\\08_tz.mbn",
+    "bytes": 4189312
+  },
+  {
+    "path": "Analisis-Bootloader\\Bootloader-Extraido\\09_hyp.mbn",
+    "bytes": 519296
+  },
+  {
+    "path": "Analisis-Bootloader\\Bootloader-Extraido\\10_devcfg.mbn",
+    "bytes": 126080
+  },
+  {
+    "path": "Analisis-Bootloader\\Bootloader-Extraido\\11_prov64.mbn",
+    "bytes": 257152
+  },
+  {
+    "path": "Analisis-Bootloader\\Bootloader-Extraido\\12_keymaster.mbn",
+    "bytes": 519296
+  },
+  {
+    "path": "Analisis-Bootloader\\Bootloader-Extraido\\13_storsec.mbn",
+    "bytes": 126080
+  },
+  {
+    "path": "Analisis-Bootloader\\Bootloader-Extraido\\14_uefi_sec.mbn",
+    "bytes": 2092160
+  },
+  {
+    "path": "Analisis-Bootloader\\Bootloader-Extraido\\15_abl.elf",
+    "bytes": 339968
+  },
+  {
+    "path": "Analisis-Bootloader\\Bootloader-Extraido\\manifest.tsv",
+    "bytes": 1789
+  },
+  {
+    "path": "Analisis-Bootloader\\decode_cid_prov_req.py",
+    "bytes": 4655
+  },
+  {
+    "path": "Analisis-Bootloader\\extraccion-bootloader.txt",
+    "bytes": 2718
+  },
+  {
+    "path": "Analisis-Bootloader\\extract_moto_bootloader.py",
+    "bytes": 5161
+  },
+  {
+    "path": "Analisis-Bootloader\\flashfile-copia.xml",
+    "bytes": 3314
+  },
+  {
+    "path": "Analisis-Bootloader\\inspeccion-abl-v2.txt",
+    "bytes": 3906
+  },
+  {
+    "path": "Analisis-Bootloader\\inspect_abl-v1-ELF64-only.py",
+    "bytes": 6304
+  },
+  {
+    "path": "Analisis-Bootloader\\inspect_abl.py",
+    "bytes": 6304
+  },
+  {
+    "path": "Analisis-Bootloader\\inspect_abl_v2.py",
+    "bytes": 7725
+  },
+  {
+    "path": "Analisis-Bootloader\\MotoBootModule\\ghidra-command-table.md",
+    "bytes": 114737
+  },
+  {
+    "path": "Analisis-Bootloader\\MotoBootModule\\ghidra-unlock-flow-v2.md",
+    "bytes": 49857
+  },
+  {
+    "path": "Analisis-Bootloader\\MotoBootModule\\ghidra-unlock-flow-v3.md",
+    "bytes": 69097
+  },
+  {
+    "path": "Analisis-Bootloader\\MotoBootModule\\ghidra-unlock-flow-v4.md",
+    "bytes": 119543
+  },
+  {
+    "path": "Analisis-Bootloader\\MotoBootModule\\ghidra-unlock-flow.md",
+    "bytes": 35144
+  },
+  {
+    "path": "Analisis-Bootloader\\MotoBootModule\\ghidra-xrefs.md",
+    "bytes": 18963
+  },
+  {
+    "path": "Analisis-Bootloader\\MotoBootModule\\historicas-extraidas.txt",
+    "bytes": 8740
+  },
+  {
+    "path": "Analisis-Bootloader\\MotoBootModule\\motoboot-pe-layout.txt",
+    "bytes": 14263
+  },
+  {
+    "path": "Analisis-Bootloader\\MotoBootModule\\motoboot-string-hits.tsv",
+    "bytes": 9582
+  },
+  {
+    "path": "Analisis-Bootloader\\MotoBootModule\\MotoBootModule.efi",
+    "bytes": 876544
+  },
+  {
+    "path": "Analisis-Bootloader\\MotoBootModule\\TrustBlobs\\extension-oid.bin",
+    "bytes": 10
+  },
+  {
+    "path": "Analisis-Bootloader\\MotoBootModule\\TrustBlobs\\signature-oid-1.bin",
+    "bytes": 9
+  },
+  {
+    "path": "Analisis-Bootloader\\MotoBootModule\\TrustBlobs\\signature-oid-2.bin",
+    "bytes": 9
+  },
+  {
+    "path": "Analisis-Bootloader\\MotoBootModule\\TrustBlobs\\trust-anchor-1.bin",
+    "bytes": 1342
+  },
+  {
+    "path": "Analisis-Bootloader\\MotoBootModule\\TrustBlobs\\trust-anchor-2.bin",
+    "bytes": 994
+  },
+  {
+    "path": "Analisis-Bootloader\\MotoBootModule\\TrustBlobs\\trust-blobs-manifest.txt",
+    "bytes": 936
+  },
+  {
+    "path": "Analisis-Bootloader\\scan-bootloader.txt",
+    "bytes": 3124
+  },
+  {
+    "path": "Analisis-Bootloader\\scan-uefi-dump.txt",
+    "bytes": 12508
+  },
+  {
+    "path": "Analisis-Bootloader\\scan_bootloader.py",
+    "bytes": 1775
+  },
+  {
+    "path": "Analisis-Bootloader\\scan_uefi_dump.py",
+    "bytes": 2465
+  },
+  {
+    "path": "Analisis-Bootloader\\servicefile-copia.xml",
+    "bytes": 2991
+  },
+  {
+    "path": "Analisis-Bootloader\\uefi-extract-abl.txt",
+    "bytes": 320
+  },
+  {
+    "path": "Analisis-Bootloader\\xml-lineas-relevantes.txt",
+    "bytes": 17286
+  },
+  {
+    "path": "block-by-name.txt",
+    "bytes": 5951
+  },
+  {
+    "path": "bootdevice-by-name.txt",
+    "bytes": 5543
+  },
+  {
+    "path": "cpuinfo.txt",
+    "bytes": 2071
+  },
+  {
+    "path": "dumpsys-usb.txt",
+    "bytes": 4754
+  },
+  {
+    "path": "ERRORES-DE-RECOPILACION.txt",
+    "bytes": 263
+  },
+  {
+    "path": "estado-android.txt",
+    "bytes": 1126
+  },
+  {
+    "path": "fastboot-getvar-all-SANITIZADO.txt",
+    "bytes": 3611
+  },
+  {
+    "path": "fastboot-oem-help.txt",
+    "bytes": 942
+  },
+  {
+    "path": "fastboot-resumen.txt",
+    "bytes": 7944
+  },
+  {
+    "path": "Firmware-Exacto\\boot.img",
+    "bytes": 100663296
+  },
+  {
+    "path": "Firmware-Exacto\\bootloader.img",
+    "bytes": 13107456
+  },
+  {
+    "path": "Firmware-Exacto\\BTFM.bin",
+    "bytes": 192588
+  },
+  {
+    "path": "Firmware-Exacto\\dspso.bin",
+    "bytes": 67108864
+  },
+  {
+    "path": "Firmware-Exacto\\dtbo.img",
+    "bytes": 2097152
+  },
+  {
+    "path": "Firmware-Exacto\\flashfile.xml",
+    "bytes": 3269
+  },
+  {
+    "path": "Firmware-Exacto\\gpt.bin",
+    "bytes": 211712
+  },
+  {
+    "path": "Firmware-Exacto\\logo.bin",
+    "bytes": 11960320
+  },
+  {
+    "path": "Firmware-Exacto\\RACER_RETAIL_RPDS31.Q4U-39-26-14-13_subsidy-IUSMXLA_regulatory-XT2063-3-MEXICO_CFC.info.txt",
+    "bytes": 1008
+  },
+  {
+    "path": "Firmware-Exacto\\radio.img",
+    "bytes": 166807296
+  },
+  {
+    "path": "Firmware-Exacto\\recovery.img",
+    "bytes": 104857600
+  },
+  {
+    "path": "Firmware-Exacto\\regulatory_info_xt2063_3_mexico.png",
+    "bytes": 128799
+  },
+  {
+    "path": "Firmware-Exacto\\servicefile.xml",
+    "bytes": 2950
+  },
+  {
+    "path": "Firmware-Exacto\\SHA256-FIRMWARE.txt",
+    "bytes": 2207
+  },
+  {
+    "path": "Firmware-Exacto\\slcf_rev_d_iusmxla_v5.0.nvm",
+    "bytes": 858
+  },
+  {
+    "path": "Firmware-Exacto\\super.img_sparsechunk.0",
+    "bytes": 470122892
+  },
+  {
+    "path": "Firmware-Exacto\\super.img_sparsechunk.1",
+    "bytes": 536797676
+  },
+  {
+    "path": "Firmware-Exacto\\super.img_sparsechunk.2",
+    "bytes": 494936492
+  },
+  {
+    "path": "Firmware-Exacto\\super.img_sparsechunk.3",
+    "bytes": 536773284
+  },
+  {
+    "path": "Firmware-Exacto\\super.img_sparsechunk.4",
+    "bytes": 476053896
+  },
+  {
+    "path": "Firmware-Exacto\\super.img_sparsechunk.5",
+    "bytes": 497656260
+  },
+  {
+    "path": "Firmware-Exacto\\super.img_sparsechunk.6",
+    "bytes": 508866828
+  },
+  {
+    "path": "Firmware-Exacto\\super.img_sparsechunk.7",
+    "bytes": 536834288
+  },
+  {
+    "path": "Firmware-Exacto\\super.img_sparsechunk.8",
+    "bytes": 536850700
+  },
+  {
+    "path": "Firmware-Exacto\\super.img_sparsechunk.9",
+    "bytes": 273322284
+  },
+  {
+    "path": "Firmware-Exacto\\vbmeta.img",
+    "bytes": 4096
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\P352CE_PVT_11.0_64B_CFC_68_66_3.01_01_FLASHER_sign_20230221151541\\P352CE_PVT_11.0_64B_CFC_68-66-3.01-01.pac",
+    "bytes": 4838913003
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\boot.img",
+    "bytes": 100663296
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\bootloader.img",
+    "bytes": 13107456
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\BTFM.bin",
+    "bytes": 192588
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\dspso.bin",
+    "bytes": 67108864
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\dtbo.img",
+    "bytes": 2097152
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\flashfile.xml",
+    "bytes": 3269
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\gpt.bin",
+    "bytes": 211712
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\logo.bin",
+    "bytes": 11960320
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\RACER_RETAIL_RPDS31.Q4U-39-26-14-13_subsidy-IUSMXLA_regulatory-XT2063-3-MEXICO_CFC.info.txt",
+    "bytes": 1008
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\radio.img",
+    "bytes": 166807296
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\recovery.img",
+    "bytes": 104857600
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\regulatory_info_xt2063_3_mexico.png",
+    "bytes": 128799
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\servicefile.xml",
+    "bytes": 2950
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\slcf_rev_d_iusmxla_v5.0.nvm",
+    "bytes": 858
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\super.img_sparsechunk.0",
+    "bytes": 470122892
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\super.img_sparsechunk.1",
+    "bytes": 536797676
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\super.img_sparsechunk.2",
+    "bytes": 494936492
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\super.img_sparsechunk.3",
+    "bytes": 536773284
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\super.img_sparsechunk.4",
+    "bytes": 476053896
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\super.img_sparsechunk.5",
+    "bytes": 497656260
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\super.img_sparsechunk.6",
+    "bytes": 508866828
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\super.img_sparsechunk.7",
+    "bytes": 536834288
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\super.img_sparsechunk.8",
+    "bytes": 536850700
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\super.img_sparsechunk.9",
+    "bytes": 273322284
+  },
+  {
+    "path": "Firmware-RSA\\RomFiles\\RACER_RETAIL_RPDS31.Q4U_39_26_14_13_subsidy_IUSMXLA_regulatory_XT2063_3_MEXICO_CFC.xml\\vbmeta.img",
+    "bytes": 4096
+  },
+  {
+    "path": "Firmware-RSA\\ToolFiles\\Fastboot_Mot_V1.zip",
+    "bytes": 2657172
+  },
+  {
+    "path": "Firmware-RSA\\ToolFiles\\UpgradeDownload_R25.20.53.10.zip.tmp",
+    "bytes": 29047139
+  },
+  {
+    "path": "getprop-completo.txt",
+    "bytes": 27128
+  },
+  {
+    "path": "Ghidra\\MotoBootRacer.gpr",
+    "bytes": 0
+  },
+  {
+    "path": "Ghidra\\MotoBootRacer.rep\\idata\\00\\00000000.prp",
+    "bytes": 505
+  },
+  {
+    "path": "Ghidra\\MotoBootRacer.rep\\idata\\00\\~00000000.db\\db.1.gbf",
+    "bytes": 15630336
+  },
+  {
+    "path": "Ghidra\\MotoBootRacer.rep\\idata\\~index.bak",
+    "bytes": 119
+  },
+  {
+    "path": "Ghidra\\MotoBootRacer.rep\\idata\\~index.dat",
+    "bytes": 119
+  },
+  {
+    "path": "Ghidra\\MotoBootRacer.rep\\project.prp",
+    "bytes": 165
+  },
+  {
+    "path": "Ghidra\\MotoBootRacer.rep\\user\\~index.dat",
+    "bytes": 63
+  },
+  {
+    "path": "Ghidra\\MotoBootRacer.rep\\versioned\\~index.bak",
+    "bytes": 63
+  },
+  {
+    "path": "Ghidra\\MotoBootRacer.rep\\versioned\\~index.dat",
+    "bytes": 63
+  },
+  {
+    "path": "GhidraScripts\\ExportMotoBootXrefs.java",
+    "bytes": 17088
+  },
+  {
+    "path": "GhidraScripts\\ExportMotoCommandTable.java",
+    "bytes": 9828
+  },
+  {
+    "path": "GhidraScripts\\ExportMotoTrustBlobs.java",
+    "bytes": 4545
+  },
+  {
+    "path": "GhidraScripts\\ExportUnlockFlow.java",
+    "bytes": 18901
+  },
+  {
+    "path": "hallazgos-recuperados.txt",
+    "bytes": 26922
+  },
+  {
+    "path": "inventario-analisis.txt",
+    "bytes": 1461
+  },
+  {
+    "path": "mounts.txt",
+    "bytes": 12329
+  },
+  {
+    "path": "PRIVATE\\cid-prov-req-hex-limpio.txt",
+    "bytes": 388
+  },
+  {
+    "path": "PRIVATE\\cid-prov-req-privado.txt",
+    "bytes": 1184
+  },
+  {
+    "path": "PRIVATE\\cid-prov-req-v1.bin",
+    "bytes": 182
+  },
+  {
+    "path": "PRIVATE\\fastboot-getvar-all-PRIVADO.txt",
+    "bytes": 7152
+  },
+  {
+    "path": "PRIVATE\\SHA256-MANIFEST-PRIVADO.txt",
+    "bytes": 467
+  },
+  {
+    "path": "PRIVATE\\unlock-data-privado.txt",
+    "bytes": 562
+  },
+  {
+    "path": "Respaldo-SDCard\\Movies\\.thumbnails\\.database_uuid",
+    "bytes": 36
+  },
+  {
+    "path": "Respaldo-SDCard\\Movies\\.thumbnails\\.nomedia",
+    "bytes": 0
+  },
+  {
+    "path": "Respaldo-SDCard\\Music\\.thumbnails\\.database_uuid",
+    "bytes": 36
+  },
+  {
+    "path": "Respaldo-SDCard\\Music\\.thumbnails\\.nomedia",
+    "bytes": 0
+  },
+  {
+    "path": "Respaldo-SDCard\\Pictures\\.thumbnails\\.database_uuid",
+    "bytes": 36
+  },
+  {
+    "path": "Respaldo-SDCard\\Pictures\\.thumbnails\\.nomedia",
+    "bytes": 0
+  },
+  {
+    "path": "Respaldo-SDCard\\Pictures\\Screenshots\\Screenshot_20250903-214130.png",
+    "bytes": 133408
+  },
+  {
+    "path": "resumen-adb.txt",
+    "bytes": 1380
+  },
+  {
+    "path": "SHA256-ANALISIS-BOOTLOADER.txt",
+    "bytes": 8842
+  },
+  {
+    "path": "SHA256-MANIFEST-PUBLICO.txt",
+    "bytes": 2030
+  },
+  {
+    "path": "slot-suffix.txt",
+    "bytes": 7
+  },
+  {
+    "path": "Tools\\UEFITool\\A75\\UEFIExtract.exe",
+    "bytes": 1116672
+  },
+  {
+    "path": "Tools\\UEFITool\\UEFIExtract_NE_A75_win64.zip",
+    "bytes": 496247
+  },
+  {
+    "path": "uname.txt",
+    "bytes": 87
+  }
+]
