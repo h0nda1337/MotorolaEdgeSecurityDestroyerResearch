@@ -4,6 +4,10 @@
     "sha256": "0eabe2bb6b37612c80138783a1141ae520797519aa4a746e4f4b71e09806d78f"
   },
   {
+    "path": "assets/racer-testpoint-location.png",
+    "sha256": "4d5d7f6f65aed94aba36c6be7328d03cbd177126cfc3281692467e8b727ac5f2"
+  },
+  {
     "path": "continuation/emulate_kgsl_range_check.py",
     "sha256": "0b1d905309c13a1fc49d0b8c28d3f5d50be42d6a0acb5d357a690452361a3b01"
   },
@@ -162,6 +166,14 @@
   {
     "path": "continuation/utags-analysis/MotUtagsDxe.efi",
     "sha256": "c49bf71689c56ef096ff95745bb588c3fcb41c4d8166e116c93db84438a5fb23"
+  },
+  {
+    "path": "ESTADO_ACTUAL.md",
+    "sha256": "ad3143099dbf0d906f55983ddbd402dbc598838dc4aa9b6ff52c7f0f65dd560b"
+  },
+  {
+    "path": "evidence/testpoint-research-2026-10-15.json",
+    "sha256": "6d893a184a170e984835c34e0356318186a31962df15924cc014f75b3b9c757e"
   },
   {
     "path": "evidence/unlock-command-attempts.json",
@@ -333,7 +345,7 @@
   },
   {
     "path": "README.md",
-    "sha256": "f76b4bad67f71f89b837934020f7690d950269a571fc628d8a51885553c51e7e"
+    "sha256": "05e994530b44d6947a68db40648872a653f3cf5efa0afb08aea1a46b939c541a"
   },
   {
     "path": "reports/estado-usb.json",
@@ -342,6 +354,10 @@
   {
     "path": "reports/informe-desbloqueo-racer.md",
     "sha256": "0817162815fc83d56a7d5380f85ebdf0fe687a9b236ad8b28a566e168107708e"
+  },
+  {
+    "path": "reports/testpoint-racer-2026-10-15.md",
+    "sha256": "67c96d6e8061c5ab7e95286692bb2dc43b008acb907e9d9271f2d8c641ca7192"
   },
   {
     "path": "reports/verificar_clave.py",

@@ -4,6 +4,10 @@ Snapshot del trabajo realizado el 11 de octubre de 2026 sobre el dispositivo del
 
 Objetivo: investigar el mecanismo de desbloqueo del bootloader de una unidad rechazada por el portal oficial de Motorola.
 
+## Actualización del 15 de octubre de 2026
+
+Se identificó el punto `TP_USB_BOOT` en documentación de Racer/SM7250. Consulta el [informe técnico con ubicación, fuentes y límites](reports/testpoint-racer-2026-10-15.md) y el [estado actual de la investigación](ESTADO_ACTUAL.md). La comprobación física está pendiente; este hallazgo no demuestra un desbloqueo.
+
 ## Estado documentado
 
 - No se consiguió root ni se desbloqueó el bootloader.

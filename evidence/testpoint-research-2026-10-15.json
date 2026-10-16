@@ -1,0 +1,60 @@
+{
+  "investigation_date": "2026-10-15",
+  "scope": "documentary review; no phone I/O",
+  "archive": {
+    "url": "https://tecnicosdecelular.com.br/wp-content/uploads/2022/10/Moto-Edge-XT2063.rar",
+    "bytes": 78395772,
+    "sha256": "d414f85f6173a14033b95c66ba3863897479fd31fcebfb22550d96278631d5c6"
+  },
+  "documents": [
+    {
+      "name": "SCHEMATICS_ XT2063_ racer_MB_sm7250_PVT_NA_schematics_V108_0324.pdf",
+      "sha256": "537148a0e574d82a512508ec0eaea6b7516c050b98efc8506326e9d150d3757a",
+      "reviewed_pages": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "SCHEMATICS_ XT2063_ racer_MB_sm7250_PVT_WE_schematics_V108_0324.pdf",
+      "sha256": "adb448e0048c7d64153aae9d63914b8ebb63a6241dd73cf2c476dce7651c31b7",
+      "reviewed_pages": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "COMPONENT LOCATION_ XT2063_Component location MB_Bottom.pdf",
+      "sha256": "bc3d85e99045337013c4d0c709c74d7fd0bf137a6b59641b7c8c2b7e954ac128",
+      "reviewed_pages": [
+        1
+      ]
+    }
+  ],
+  "published_excerpt": {
+    "path": "assets/racer-testpoint-location.png",
+    "sha256": "4d5d7f6f65aed94aba36c6be7328d03cbd177126cfc3281692467e8b727ac5f2",
+    "method": "Unannotated crop rendered from bottom component-location PDF with Poppler"
+  },
+  "documented": {
+    "test_point": "TP_USB_BOOT",
+    "net": "FORCED_USB_BOOT",
+    "processor_gpio": 48,
+    "series_resistor": "R1028, 0 ohms",
+    "adjacent_supply_test_point": "TP_VREG_S4A_1P8",
+    "factory_volume_up_circuit": "U1000 SN74AUC1G240, marked not fitted for production"
+  },
+  "inferences": {
+    "assertion_level": "high, 1.8 V, inferred from intended inverter circuit; not measured on target"
+  },
+  "not_demonstrated": [
+    "physical test point operation",
+    "working Sahara session through test point",
+    "root",
+    "bootloader unlock"
+  ],
+  "phone_io": false,
+  "full_source_documents_included": false
+}
