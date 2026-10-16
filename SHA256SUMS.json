@@ -169,7 +169,7 @@
   },
   {
     "path": "ESTADO_ACTUAL.md",
-    "sha256": "ad3143099dbf0d906f55983ddbd402dbc598838dc4aa9b6ff52c7f0f65dd560b"
+    "sha256": "e6b81ff9aed1e14f406616ff68ea871f73f1d63979944d85d4571318bf46ba2a"
   },
   {
     "path": "evidence/testpoint-research-2026-10-15.json",
@@ -345,7 +345,7 @@
   },
   {
     "path": "README.md",
-    "sha256": "05e994530b44d6947a68db40648872a653f3cf5efa0afb08aea1a46b939c541a"
+    "sha256": "5304eb6cefda66450ea148b643e7cd3d5dc4d343adc0a6b2b0d19324b1968876"
   },
   {
     "path": "reports/estado-usb.json",
@@ -654,5 +654,21 @@
   {
     "path": "work/verify_unlock_key.py",
     "sha256": "74ec87a95a56e0d400e13fd70c215056a2be03fff804f4733d03751d80eb8357"
+  },
+  {
+    "path": "evidence/firmware-hardware-research-2026-10-16.json",
+    "sha256": "6de41231b0fed3ff325e80d9abef75c6b8d5bf5b82cd678390d6a3d5b8c032b9"
+  },
+  {
+    "path": "evidence/programmer-metadata-2026-10-16.json",
+    "sha256": "6b17c10bfbf6a7d386c4745ca6fe337bf71b694da9a79e6c490ff94f3520ba04"
+  },
+  {
+    "path": "reports/investigacion-firmware-hardware-2026-10-16.md",
+    "sha256": "0da5214e14bc1fcf5f29b26633e01838d42f5b06a1651e22c1639f94cf207d9a"
+  },
+  {
+    "path": "research-tools/inspect_programmer_metadata.py",
+    "sha256": "7fbfd9ceadfb987c1ebb6a2e68267ba62e51107fffdbebcbcfcfd2b98d2863df"
   }
 ]

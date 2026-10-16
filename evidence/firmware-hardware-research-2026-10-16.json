@@ -1,0 +1,129 @@
+{
+  "investigation_date": "2026-10-16",
+  "repository": "https://github.com/h0nda1337/MotorolaEdgeSecurityDestroyerResearch",
+  "device_family": {
+    "product": "racer",
+    "model": "XT2063-3",
+    "soc": "Qualcomm SM7250 Snapdragon 765G",
+    "bootloader_historical": "MBM-3.0-racer_retail-f5420c43412-220729"
+  },
+  "scope": {
+    "documentary_review": true,
+    "offline_public_certificate_inspection": true,
+    "phone_io": false,
+    "exploit_development": false,
+    "vulnerability_exploitation": false,
+    "firmware_flash": false,
+    "hardware_modification": false
+  },
+  "conclusion": "No functional unlock method verified for this unit without a credential accepted by its bootloader; no proof of absolute impossibility.",
+  "baseline_commit": "57372d296562eb553a8aa913c3ec52d93afa0783",
+  "local_evidence": [
+    "reports/informe-desbloqueo-racer.md",
+    "work/audit-v2/unlock_lock.asm",
+    "work/audit-v2/state_helpers.asm",
+    "work/audit-v2/security_state_init.asm",
+    "continuation/session-continuation.json",
+    "reports/testpoint-racer-2026-10-15.md",
+    "evidence/testpoint-research-2026-10-15.json",
+    "evidence/programmer-metadata-2026-10-16.json",
+    "research-tools/inspect_programmer_metadata.py"
+  ],
+  "sources": [
+    {
+      "id": "motorola-eligibility",
+      "url": "https://en-us.support.motorola.com/app/utils/guided_assistant/g_id/8133",
+      "kind": "manufacturer",
+      "supports": "carrier eligibility restrictions and Device ID check",
+      "limit": "US guidance does not independently establish AT&T Mexico unit policy",
+      "consulted": "2026-10-16"
+    },
+    {
+      "id": "motorola-unlock-program",
+      "url": "https://en-us.support.motorola.com/app/standalone/bootloader/unlock-your-device-a",
+      "kind": "manufacturer",
+      "supports": "official unlock code process and distinction from network/SIM unlock",
+      "consulted": "2026-10-16"
+    },
+    {
+      "id": "lineage-racer",
+      "url": "https://github.com/LineageOS/lineage_wiki/blob/4edbf1aabad1ed98ab265ced65788a47c1c9e2bb/_data/devices/racer.yml",
+      "kind": "project-source",
+      "supports": "XT2063-3, SM7250, fastboot_motorola installation method",
+      "consulted": "2026-10-16"
+    },
+    {
+      "id": "lineage-motorola-install",
+      "url": "https://github.com/LineageOS/lineage_wiki/blob/4edbf1aabad1ed98ab265ced65788a47c1c9e2bb/_includes/templates/recovery_install_fastboot_motorola.md",
+      "kind": "project-source",
+      "supports": "installation depends on Motorola unlock portal",
+      "consulted": "2026-10-16"
+    },
+    {
+      "id": "aosp-unlock",
+      "url": "https://source.android.com/docs/core/architecture/bootloader/locking_unlocking",
+      "kind": "platform-documentation",
+      "supports": "OEM unlocking permission and state transition are distinct",
+      "limit": "generic architecture does not guarantee Motorola key issuance",
+      "consulted": "2026-10-16"
+    },
+    {
+      "id": "qualcomm-secure-boot",
+      "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/secure-boot-and-image-authentication-version_final.pdf",
+      "kind": "chip-vendor-documentation",
+      "supports": "image authentication and hardware/OEM identity binding",
+      "limit": "not a measurement of this device or full validation of its loader",
+      "consulted": "2026-10-16"
+    },
+    {
+      "id": "ti-inverter",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74auc1g240.pdf",
+      "kind": "component-datasheet",
+      "supports": "inverting function with output enabled",
+      "limit": "does not validate board population or physical testpoint procedure",
+      "consulted": "2026-10-16"
+    },
+    {
+      "id": "racer-hardware-mirror",
+      "url": "https://tecnicosdecelular.com.br/blog/esquema-eletrico-moto-edge-xt2063/",
+      "kind": "third-party-mirror-of-manufacturer-marked-documents",
+      "supports": "source package for board-specific schematic and component location evidence",
+      "limit": "not authenticated directly by Motorola; prior manifest preserves hashes",
+      "consulted": "2026-10-16"
+    },
+    {
+      "id": "edl-maintainer",
+      "url": "https://github.com/bkerler/edl",
+      "kind": "tool-maintainer",
+      "supports": "transport and loader identification are distinct concerns",
+      "limit": "generic support is not proof of Racer unlock",
+      "consulted": "2026-10-16"
+    },
+    {
+      "id": "sigma-1.01.17",
+      "url": "https://sigmakey.com/en/sigma-news/sigma-plus-v-1-01-17/",
+      "kind": "vendor-release-note",
+      "publication_date": "2026-09-02",
+      "supports": "Moto MTK model list; Edge XT2205 variants rather than XT2063",
+      "limit": "review of this announcement only; tool not run",
+      "consulted": "2026-10-16"
+    },
+    {
+      "id": "chimera-48.02.1043",
+      "url": "https://chimeratool.com/en/download/details/48.02.1043",
+      "kind": "vendor-release-note",
+      "publication_date": "2026-09-24",
+      "supports": "published supported-model list omits XT2063; Edge starts with XT2205-3",
+      "limit": "tool not run; internal mechanism not established",
+      "consulted": "2026-10-16"
+    }
+  ],
+  "limitations": [
+    "No fresh device state, hardware revision, electrical measurements, fuse or trust-anchor reads",
+    "Historical portal rejection supplied by owner, not resubmitted",
+    "No successful Sahara session or programmer acceptance established",
+    "Certificate signature consistency is not ELF signature validation or trusted-chain validation",
+    "No valid normal unlock key, authorized debug token or issuance service established"
+  ],
+  "privacy": "New artifacts contain generic firmware and public certificate metadata; no personal device identifiers or pairing credentials."
+}

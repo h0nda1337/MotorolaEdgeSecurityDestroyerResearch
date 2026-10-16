@@ -1,0 +1,124 @@
+{
+  "file_name": "programmer.elf",
+  "size": 683532,
+  "sha256": "750b66a3e163500403aba290f346d4c90259b29436b1df6ad8b3268f87bf9eb4",
+  "elf_class": 2,
+  "machine": 183,
+  "certificates": [
+    {
+      "offset": "0x1538",
+      "length": 1237,
+      "subject_cn": [
+        "Motorola Attestation 719-1-9"
+      ],
+      "issuer_cn": [
+        "Motorola Attestation CA 719-1"
+      ],
+      "sha256": "a1ce7539a23da3957687182a27ed8bc05a52214a525b82135783426019bad86c",
+      "public_key_type": "RSAPublicKey",
+      "signature_algorithm": "1.2.840.113549.1.1.10",
+      "organizational_units": [
+        "08 0000000000000556 APP_ID",
+        "07 0001 SHA256",
+        "06 0000 MODEL_ID",
+        "05 00004000 SW_SIZE",
+        "04 02E8 OEM_ID",
+        "03 0000000000000002 DEBUG",
+        "02 0011E0E102E80000 HW_ID",
+        "01 000000000000001F SW_ID"
+      ],
+      "certificate_signature_check": "valid against embedded issuer public key"
+    },
+    {
+      "offset": "0x1a0d",
+      "length": 983,
+      "subject_cn": [
+        "Motorola Attestation CA 719-1"
+      ],
+      "issuer_cn": [
+        "Root CA 719"
+      ],
+      "sha256": "2c3708fb98409457678372757565ed1af4e1a75445402b57b7f45816e05defa1",
+      "public_key_type": "RSAPublicKey",
+      "signature_algorithm": "1.2.840.113549.1.1.10",
+      "organizational_units": [
+        "Motorola PKI"
+      ],
+      "certificate_signature_check": "valid against embedded issuer public key"
+    },
+    {
+      "offset": "0x1de4",
+      "length": 965,
+      "subject_cn": [
+        "Root CA 719"
+      ],
+      "issuer_cn": [
+        "Root CA 719"
+      ],
+      "sha256": "628be3f403d0c67aa0c9f3d2c798eb734fbd2cf33c75aee5ff930764499ea9b4",
+      "public_key_type": "RSAPublicKey",
+      "signature_algorithm": "1.2.840.113549.1.1.10",
+      "organizational_units": [
+        "Motorola PKI"
+      ],
+      "certificate_signature_check": "valid against embedded issuer public key"
+    },
+    {
+      "offset": "0x911fc",
+      "length": 1063,
+      "subject_cn": [
+        "CASS - SBL3"
+      ],
+      "issuer_cn": [
+        "XBL Sec Attestation Root CA 2 SubCA 1"
+      ],
+      "sha256": "476419b8bcea8c93ca511e1983383e541a892451a4a11183db673e8720833ef4",
+      "public_key_type": "RSAPublicKey",
+      "signature_algorithm": "1.2.840.113549.1.1.10",
+      "organizational_units": [],
+      "certificate_signature_check": "valid against embedded issuer public key"
+    },
+    {
+      "offset": "0x91623",
+      "length": 1110,
+      "subject_cn": [
+        "XBL Sec Attestation Root CA 2 SubCA 1"
+      ],
+      "issuer_cn": [
+        "XBL Sec Attestation Root CA 2"
+      ],
+      "sha256": "269ad6760a5684cf3d7343cff4c9b94b67d968fb0f1aed717bbe67ef165d0ea4",
+      "public_key_type": "RSAPublicKey",
+      "signature_algorithm": "1.2.840.113549.1.1.10",
+      "organizational_units": [
+        "Qualcomm Cryptographic Operations"
+      ],
+      "certificate_signature_check": "valid against embedded issuer public key"
+    },
+    {
+      "offset": "0x91a79",
+      "length": 1065,
+      "subject_cn": [
+        "XBL Sec Attestation Root CA 2"
+      ],
+      "issuer_cn": [
+        "XBL Sec Attestation Root CA 2"
+      ],
+      "sha256": "ef29c4d3d66e7c57e026ffda5a795b0b7b5df7f55919ff0dad7d12e9f3bbcaa4",
+      "public_key_type": "RSAPublicKey",
+      "signature_algorithm": "1.2.840.113549.1.1.10",
+      "organizational_units": [
+        "Qualcomm Cryptographic Operations"
+      ],
+      "certificate_signature_check": "valid against embedded issuer public key"
+    }
+  ],
+  "method": "offline DER inventory and certificate signature checks using embedded issuer keys",
+  "phone_io": false,
+  "limitations": [
+    "No validation of ELF image signatures, segment hashes or metadata policy",
+    "No external trust anchor, revocation or certificate validity-period validation",
+    "No measurement of target hardware trust anchors, fuses or security state",
+    "Matching embedded certificate signatures does not prove target acceptance"
+  ]
+}
